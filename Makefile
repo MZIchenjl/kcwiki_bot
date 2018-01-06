@@ -7,7 +7,7 @@ PYTHON3 ?= python3
 
 fetch:
 	@echo fetching new dbs...
-	@$(FETCH) -q -i sh/fetch_list -P db/
+	@$(FETCH) -i sh/fetch_list -P db/
 	@echo new dbs fetched successfully!
 
 ships2lua:

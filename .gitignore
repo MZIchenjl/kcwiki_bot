@@ -25,3 +25,5 @@ test.py
 # vs code stuff
 .vscode
 
+db
+output

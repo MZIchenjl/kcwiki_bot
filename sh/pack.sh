@@ -2,7 +2,7 @@
 
 datetime=`date +%F`
 tempdir=$datetime"/"
-zipfilename=${datetime}".zip"
+zipfilename="output/"${datetime}".zip"
 
 cp -r output/ $tempdir
 zip -qr $zipfilename $tempdir
