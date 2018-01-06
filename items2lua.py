@@ -18,7 +18,9 @@ STAT_MAP = {
 CONSUMABLE_MAP = {
     'consumable_70': '熟练搭乘员',
     'consumable_71': 'ネ式エンジン',
-    'consumable_75': '新型炮熕兵装资材'
+    'consumable_75': '新型炮熕兵装资材',
+    'consumable_77': '新型航空兵装資材',
+    'consumable_78': '戦闘詳報'
 }
 RANK_UPGARDABLE = [
     15, 16, 17, 51, 21, 50, 45, 18,
@@ -215,6 +217,7 @@ def generate(wctf_item, luatable_dict):
     item_type = wctf_item['type']
     lua_entry = ''
     lua_entry += '    ["{}"] = {{\n'.format(str(item_id).zfill(3))
+    lua_entry += '        ["ID"] = {},\n'.format(item_id)
     lua_entry += '        ["日文名"] = "{}",\n'.format(
         get_itemname(wctf_item, 'ja_jp'))
     lua_entry += '        ["中文名"] = "{}",\n'.format(

@@ -235,18 +235,26 @@ def generate(wiki_ship, wctf_ship, table_dict):
                     if 'remodel' in wctf_ship and 'prev' in wctf_ship['remodel'] else None,
                     'illustrator')
     )
-    entry_str += '        ["声优"] = "{}"\n'.format(
+    entry_str += '        ["声优"] = "{}",\n'.format(
         get_relname(wctf_ship['rels']['cv'], wctf_ship['remodel']['prev']
                     if 'remodel' in wctf_ship and 'prev' in wctf_ship['remodel'] else None,
                     'cv')
     )
+    wiki_links = wctf_ship['links'] if 'links' in wctf_ship else []
+    for wiki_link in wiki_links:
+        entry_str += '        ["{}"] = "{}",\n'\
+            .format(wiki_link['name'], wiki_link['url'])
+    entry_str = entry_str.rstrip(',\n') + '\n'
     entry_str += '    },\n'
     table_dict[wiki_ship['wiki_id']] = entry_str
 
+
 # Convert nedb to json
 utils.nedb2json(DB_FOLDER + 'ships.nedb', DB_FOLDER + 'ships.json')
-utils.nedb2json(DB_FOLDER + 'ship_namesuffix.nedb', DB_FOLDER + 'ship_namesuffix.json')
-utils.nedb2json(DB_FOLDER + 'ship_classes.nedb', DB_FOLDER + 'ship_classes.json')
+utils.nedb2json(DB_FOLDER + 'ship_namesuffix.nedb',
+                DB_FOLDER + 'ship_namesuffix.json')
+utils.nedb2json(DB_FOLDER + 'ship_classes.nedb',
+                DB_FOLDER + 'ship_classes.json')
 utils.nedb2json(DB_FOLDER + 'entities.nedb', DB_FOLDER + 'entities.json')
 utils.nedb2json(DB_FOLDER + 'ship_series.nedb', DB_FOLDER + 'ship_series.json')
 
