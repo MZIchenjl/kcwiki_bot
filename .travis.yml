@@ -1,0 +1,31 @@
+language: python
+python:
+  - '3.6'
+env:
+  - LUA="lua=5.3"
+before_install:
+  - pip install hererocks
+  - hererocks lua_install -r^ --$LUA
+  - export PATH=$PATH:$PWD/lua_install/bin
+install:
+  - pip install requests
+branches:
+  only:
+    - luaTable
+script:
+  - mkdir output
+  - make all
+before_deploy:
+  - git config --local user.name "MZI"
+  - git config --local user.email "macchenjl@foxmail.com"
+  - git tag -a "$(date +%F)" -m "$(date +%F)"
+deploy:
+  provider: releases
+  api_key:
+    secure: $OAUTH_TOKEN
+  skip_cleanup: true
+  file_glob: true
+  file: output/*
+  on:
+    repo: MZIchenjl/kcwiki_bot
+    branch: luaTable
