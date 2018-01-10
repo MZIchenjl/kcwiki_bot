@@ -32,6 +32,7 @@ SHIP_TYPES = {}
 SHIP_NAMESUFFIX = {}
 ITEM_TYPES = {}
 REMARKS = {}
+AKASHI_DATA = {}
 
 
 def load_remark(path):
@@ -43,8 +44,18 @@ def load_remark(path):
         raw_data = json.load(fremark)
         for remark_id, content in raw_data.items():
             remarks[int(remark_id)] = content
-        fremark.close()
     return remarks
+
+
+def load_akashi(path):
+    '''
+    Load data from akashi-list
+    '''
+    akashi_data = {}
+    with open(path, 'r', encoding='utf_8') as fakashi:
+        raw_data = json.load(fakashi)
+        akashi_data = utils.load_akashi(raw_data)
+    return akashi_data
 
 
 def get_itemname(wctf_item, lan):
@@ -256,6 +267,10 @@ def generate(wctf_item, luatable_dict):
         for importment in improvements:
             improvement_idx += 1
             lua_entry += gen_improvement(importment, improvement_idx)
+    wiki_link = AKASHI_DATA[item_id] if item_id in AKASHI_DATA else []
+    for wkiki_name in wiki_link:
+        lua_entry += '        ["{}"] = "{}",\n'\
+            .format(wkiki_name, wiki_link[wkiki_name])
     lua_entry = lua_entry.rstrip(',\n') + '\n'
     lua_entry += '    },\n'
     luatable_dict[item_id] = lua_entry
@@ -277,6 +292,7 @@ SHIP_NAMESUFFIX = utils.jsonFile2dic(
 SHIP_TYPES = utils.jsonFile2dic(DB_FOLDER + 'ship_types.json', masterKey='id')
 ITEM_TYPES = utils.jsonFile2dic(DB_FOLDER + 'item_types.json', masterKey='id')
 REMARKS = load_remark(DB_FOLDER + 'remarks.json')
+AKASHI_DATA = load_akashi(DB_FOLDER + 'akashi-list.json')
 
 LUATABLE_DICT = dict()
 LUATABLE_STR = '''local d = {}
@@ -297,6 +313,4 @@ LUATABLE_STR += '''
 return d'''
 
 with open(OUTPUT_FOLDER + 'luatable-items.lua', 'w', encoding='utf_8') as fluatable:
-
     fluatable.write(LUATABLE_STR)
-    fluatable.close()
