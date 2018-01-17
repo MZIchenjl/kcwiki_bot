@@ -25,7 +25,7 @@ test.py
 # vs code stuff
 .vscode
 
+.cache
 db/*
 !db/remarks.json
-!db/akashi-list.json
 output
