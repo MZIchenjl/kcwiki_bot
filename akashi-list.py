@@ -19,7 +19,7 @@ SITEROOT = 'http://akashi-list.me'
 # 代理
 PROXY = None
 # 输出文件
-OUTPUT = 'db/akashi-list.json'
+OUTPUT = 'output/akashi-list.json'
 # 是否启用cache
 CACHE = True
 # cache路径

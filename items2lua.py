@@ -292,7 +292,7 @@ SHIP_NAMESUFFIX = utils.jsonFile2dic(
 SHIP_TYPES = utils.jsonFile2dic(DB_FOLDER + 'ship_types.json', masterKey='id')
 ITEM_TYPES = utils.jsonFile2dic(DB_FOLDER + 'item_types.json', masterKey='id')
 REMARKS = load_remark(DB_FOLDER + 'remarks.json')
-AKASHI_DATA = load_akashi(DB_FOLDER + 'akashi-list.json')
+AKASHI_DATA = load_akashi(OUTPUT_FOLDER + 'akashi-list.json')
 
 LUATABLE_DICT = dict()
 LUATABLE_STR = '''local d = {}
