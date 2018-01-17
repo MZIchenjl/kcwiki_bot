@@ -9,6 +9,10 @@ before_install:
   - export PATH=$PATH:$PWD/lua_install/bin
 install:
   - pip install requests
+  - pip install aiohttp
+  - pip install async_timeout
+  - pip install lxml
+  - pip install beautifulsoup4
 branches:
   only:
     - luaTable
