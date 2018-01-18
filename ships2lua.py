@@ -51,6 +51,8 @@ def equip2str(equips, slot_size):
         equip = equips[i]
         if isinstance(equip, str):
             formated_equips[i] = '-1'
+        elif isinstance(equip, dict):
+            formated_equips[i] = str(equip['id'])
         else:
             formated_equips[i] = str(equip)
     return ','.join(formated_equips)
