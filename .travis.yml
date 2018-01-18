@@ -13,9 +13,16 @@ install:
   - pip install async_timeout
   - pip install lxml
   - pip install beautifulsoup4
+branches:
+  only:
+    - luaTable
 script:
   - mkdir output
   - make all
+before_deploy:
+  - git config --local user.name "MZI"
+  - git config --local user.email "macchenjl@foxmail.com"
+  - git tag -a "$(date +%F)" -m "$(date +%F)"
 deploy:
   provider: releases
   api_key:
@@ -24,4 +31,5 @@ deploy:
   file_glob: true
   file: output/*
   on:
-    tags: true
+    repo: MZIchenjl/kcwiki_bot
+    branch: luaTable
