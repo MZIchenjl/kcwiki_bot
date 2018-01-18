@@ -19,10 +19,6 @@ branches:
 script:
   - mkdir output
   - make all
-before_deploy:
-  - git config --local user.name "MZI"
-  - git config --local user.email "macchenjl@foxmail.com"
-  - git tag -a "$(date +%F)" -m "$(date +%F)"
 deploy:
   provider: releases
   api_key:
