@@ -31,5 +31,4 @@ deploy:
   file_glob: true
   file: output/*
   on:
-    repo: MZIchenjl/kcwiki_bot
-    branch: luaTable
+    tags: true
