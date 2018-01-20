@@ -49,7 +49,7 @@ def equip2str(equips, slot_size):
     equip_size = len(equips)
     for i in range(equip_size):
         equip = equips[i]
-        if isinstance(equip, str):
+        if not equip or isinstance(equip, str):
             formated_equips[i] = '-1'
         elif isinstance(equip, dict):
             formated_equips[i] = str(equip['id'])
