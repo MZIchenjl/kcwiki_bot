@@ -2,8 +2,8 @@
 Generate ships lua table
 from two sources: 'zh.kcwiki.org' and 'Who calls the fleet'.
 '''
-import utils
 import requests
+import utils
 
 KCDATA_JSON_URL = 'http://kcwikizh.github.io/kcdata/ship/all.json'
 

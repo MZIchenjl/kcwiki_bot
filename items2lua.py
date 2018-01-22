@@ -11,9 +11,10 @@ OUTPUT_FOLDER = 'output/'
 RANGE_MAP = ['"无"', '"短"', '"中"', '"长"', '"超长"']
 REQ_MAP = ['日', '一', '二', '三', '四', '五', '六']
 STAT_MAP = {
-    'torpedo': '雷装', 'fire': '火力', 'evasion': '回避', 'los': '索敌', 'aa': '对空',
-    'range': '射程', 'distance': '航程', 'asw': '对潜', 'bomb': '爆装', 'cost': '',
-    'hit': '命中', 'armor': '装甲'
+    'torpedo': '雷装', 'fire': '火力', 'los': '索敌', 'aa': '对空',
+    'range': '射程', 'distance': '航程', 'asw': '对潜', 'bomb': '爆装',
+    'armor': '装甲', 'evasion': '回避', 'evasion-1': '迎击', 'hit': '命中',
+    'hit-1': '对爆'
 }
 CONSUMABLE_MAP = {
     'consumable_70': '熟练搭乘员',
@@ -69,7 +70,7 @@ def get_itemname(wctf_item, lan):
     return wctf_item['name'][lan]
 
 
-def get_stats(stats):
+def get_stats(stats, type_id):
     '''
     Get item stats
     '''
@@ -79,9 +80,14 @@ def get_stats(stats):
     for stat_key, stat_val in stats.items():
         if stat_key == 'cost':
             continue
-        if stat_key == 'range':
+        elif stat_key == 'range':
             if isinstance(stat_val, int):
                 stat_val = RANGE_MAP[stat_val]
+        elif type_id == 59 or type_id == 54:
+            if stat_key == 'hit':
+                stat_key = 'hit-1'
+            elif stat_key == 'evasion':
+                stat_key = 'evasion-1'
         if not stat_val:
             continue
         if stat_key == 'range' and 'distance' in stats:
@@ -250,7 +256,7 @@ def generate(wctf_item, luatable_dict):
             1 if item_type in RANK_UPGARDABLE else 0
         )
     lua_entry += '        ["属性"] = {{{}}},\n'.format(
-        get_stats(wctf_item['stat']))
+        get_stats(wctf_item['stat'], wctf_item['type']))
     lua_entry += '        ["废弃"] = {{["燃料"] = {}, ["弹药"] = {}, ["钢材"] = {}, ["铝"] = {}}},\n'.format(
         wctf_item['dismantle'][0],
         wctf_item['dismantle'][1],
