@@ -83,11 +83,10 @@ def get_stats(stats, type_id):
         elif stat_key == 'range':
             if isinstance(stat_val, int):
                 stat_val = RANGE_MAP[stat_val]
-        elif type_id == 59 or type_id == 54:
-            if stat_key == 'hit':
-                stat_key = 'hit-1'
-            elif stat_key == 'evasion':
-                stat_key = 'evasion-1'
+        elif stat_key == 'hit' and (type_id == 59 or type_id == 54):
+            stat_key = 'hit-1'
+        elif stat_key == 'evasion' and (type_id == 59 or type_id == 54):
+            stat_key = 'evasion-1'
         if not stat_val:
             continue
         if stat_key == 'range' and 'distance' in stats:
