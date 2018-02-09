@@ -13,8 +13,7 @@ REQ_MAP = ['日', '一', '二', '三', '四', '五', '六']
 STAT_MAP = {
     'torpedo': '雷装', 'fire': '火力', 'los': '索敌', 'aa': '对空',
     'range': '射程', 'distance': '航程', 'asw': '对潜', 'bomb': '爆装',
-    'armor': '装甲', 'evasion': '回避', 'evasion-1': '迎击', 'hit': '命中',
-    'hit-1': '对爆'
+    'armor': '装甲', 'evasion': '回避', 'hit': '命中'
 }
 CONSUMABLE_MAP = {
     'consumable_70': '熟练搭乘员',
@@ -83,10 +82,6 @@ def get_stats(stats, type_id):
         elif stat_key == 'range':
             if isinstance(stat_val, int):
                 stat_val = RANGE_MAP[stat_val]
-        elif stat_key == 'hit' and (type_id == 59 or type_id == 54):
-            stat_key = 'hit-1'
-        elif stat_key == 'evasion' and (type_id == 59 or type_id == 54):
-            stat_key = 'evasion-1'
         if not stat_val:
             continue
         if stat_key == 'range' and 'distance' in stats:

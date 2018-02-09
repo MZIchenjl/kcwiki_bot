@@ -1,4 +1,4 @@
-all: clean rmdbs fetch akashi lua json pack
+all: fetch akashi lua pack
 
 FETCH ?= wget
 RUN ?= bash
@@ -20,10 +20,6 @@ akashi:
 
 lua: ships2lua items2lua
 	@echo lua files generated successfully!
-
-json:
-	lua lua2json.lua
-	@echo json files generated successfully!
 
 clean:
 	$(RM) db/entities.json
