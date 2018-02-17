@@ -562,7 +562,7 @@ class AkashiCrawler:
 
 
 async def main():
-    akashi_crawler = AkashiCrawler(http_proxy='http://127.0.0.1:1087')
+    akashi_crawler = AkashiCrawler()
     await akashi_crawler.start()
 
 if __name__ == '__main__':
