@@ -7,9 +7,9 @@ akashi.py
 import os
 import time
 import json
+import lxml
 import asyncio
 import aiohttp
-import async_timeout as timeout
 from bs4 import BeautifulSoup, element
 
 
@@ -19,16 +19,20 @@ class AkashiCrawler:
     OUTPUT = 'output/akashi-list.json'
     CACHE_DIR = '.cache/'
 
-    def __init__(self, proxy=None, cache=True, sannma=False):
-        self.proxy = proxy
+    def __init__(self, http_proxy=None, cache=True, sannma=False):
+        self.http_proxy = http_proxy
         self.cache = cache
         self.sannma = sannma
+        self.tot_items = 0
+        self.ok_items = 0
         self.session = aiohttp.ClientSession()
         if self.cache and not os.path.isdir(self.CACHE_DIR):
             os.mkdir(self.CACHE_DIR)
 
     def __del__(self):
-        self.session.close()
+        loop = asyncio.get_event_loop()
+        self.session.connector.close()
+        asyncio.run_coroutine_threadsafe(self.session.close(), loop)
 
     def get_text(self, node):
         '''
@@ -58,20 +62,18 @@ class AkashiCrawler:
         '''
         解析首页得到全部装备的编号
         '''
-        res = None
-        content = ''
-        with timeout.timeout(40):
-            res = await self.session.get(self.SITEROOT, proxy=self.proxy)
-            content = await res.text()
-        content_soup = BeautifulSoup(content, 'lxml')
-        sannma_stats = None
-        if self.sannma:
-            sannma_stats = self.get_sannma(content_soup)
-        weapon_selector = content_soup.select('div.weapon')
-        weapon_id_list = list()
-        for weapon in weapon_selector:
-            weapon_id_list.append(weapon.attrs['id'].strip())
-        return weapon_id_list, sannma_stats
+        async with self.session.get(self.SITEROOT, proxy=self.http_proxy) as resp:
+            content = await resp.text()
+            content_soup = BeautifulSoup(content, 'lxml')
+            sannma_stats = None
+            if self.sannma:
+                sannma_stats = self.get_sannma(content_soup)
+            weapon_selector = content_soup.select('div.weapon')
+            weapon_id_list = list()
+            for weapon in weapon_selector:
+                weapon_id_list.append(weapon.attrs['id'].strip())
+            self.tot_items = len(weapon_id_list)
+            return weapon_id_list, sannma_stats
 
     def get_remodel(self, resource, supports):
         '''
@@ -189,21 +191,25 @@ class AkashiCrawler:
         if self.cache:
             cache_path = os.path.abspath(
                 '{0}/{1}.json'.format(self.CACHE_DIR, weaponid))
-            with timeout.timeout(40):
-                hand_shake = await self.session.head(requesturl, proxy=self.proxy)
+            async with self.session.head(requesturl, proxy=self.http_proxy) as hand_shake:
                 last_modified = hand_shake.headers.get('Last-Modified')
                 if os.path.isfile(cache_path) and last_modified:
                     with open(cache_path, 'r', encoding='utf_8') as fcache:
                         try:
                             cache = json.load(fcache)
                             if cache['last_modified'] == last_modified:
+                                self.ok_items += 1
+                                print(
+                                    '({} / {}) ok!'
+                                    .format(self.ok_items, self.tot_items))
                                 return cache['detail']
                         except json.JSONDecodeError:
                             pass
 
         # 处理没有缓存或者缓存过期的文件
-        res = await self.session.get(requesturl, proxy=self.proxy)
-        content = await res.text()
+        content = ''
+        async with self.session.get(requesturl, proxy=self.http_proxy) as res:
+            content = await res.text()
         content_soup = BeautifulSoup(content, 'lxml')
         detail = dict()
         detail['id'] = int(weaponid.lstrip('w'))
@@ -512,6 +518,8 @@ class AkashiCrawler:
                         'last_modified': last_modified,
                         'detail': detail
                     }, fwptr, ensure_ascii=False)
+        self.ok_items += 1
+        print('({} / {}) ok!'.format(self.ok_items, self.tot_items))
         return detail
 
     async def start(self):
@@ -554,7 +562,7 @@ class AkashiCrawler:
 
 
 async def main():
-    akashi_crawler = AkashiCrawler()
+    akashi_crawler = AkashiCrawler(http_proxy='http://127.0.0.1:1087')
     await akashi_crawler.start()
 
 if __name__ == '__main__':

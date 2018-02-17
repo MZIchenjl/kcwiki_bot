@@ -8,11 +8,7 @@ before_install:
   - hererocks lua_install -r^ --$LUA
   - export PATH=$PATH:$PWD/lua_install/bin
 install:
-  - pip install requests
-  - pip install aiohttp
-  - pip install async_timeout
-  - pip install lxml
-  - pip install beautifulsoup4
+  - pip install -r requirements.txt
 branches:
   only:
     - luaTable
