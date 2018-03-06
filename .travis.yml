@@ -12,17 +12,13 @@ cache:
 script:
   - mkdir output
   - make all
-before_deploy:
-  - git config --local user.name "MZI"
-  - git config --local user.email "macchenjl@foxmail.com"
-  - git tag -a "$(date +%F)" -m "$(date +%F)"
 deploy:
-  provider: releases
-  api_key:
-    secure: LYcnuJB0hg9PlaBS9Vl/ER5QN2EUmiY/O64S71se/Tcn9JqLKR7m6W2/FXHZubGA7WiymJ0AGim835GMhYyjxFkA0WBMShAGBazUwkCJIetBpmkWROme/xauvLz7wH6bVNW6gl1PA+Q0yUVBdW915/eoB0x6kIpN8Og4ls0erZ7+60yWKW4AncgY9OOdGZZdJ4Pd7OAplcqdJ2dj9GTsdEKe0wcPKPUQR53/G53KV2oWEd2neb2UIUeGtt2FhBI6PYe+J9hmxIY6XHWcK3fqUA3e1MZPI6GXBEJiem5oSB4Hc/KsQVQgb9mNHi7nOABcZUShQjmpQIWmcoyW0KnrVUpSnZNaCrOC2+D3AlvDIjU0LhrFp232wYXGPMdHjdGuixjuZGXIkszi0yTX3g6nRBP6cPgMKuE+hmoZXTvDWbnGVgk/5n9APR/X9UBLS4szCbey7Zcop+8B+loDoGMA/e9ROnQEGE/1MVngMUbfiTwYE2LMz7+sTrrTvKtIHtR0PyepE8yxq8AR6OjZMn3TTHVzY4Md6m/3fJeuXZbLLEDh7fxEvsE9mJy/y0JUAY8ACWs74F1zsuZZJwLZm9NjZXAg+8wetqPUVObWieyIUIuMm02lNn5fBS5d6DBWmBodlJ2Pt66P6mMcHlRAF+eP//+L70AQRvAkbE/B0gAK3Wg=
+  provider: pages
+  name: MZI
+  email: macchenjl@foxmail.com
+  github_token: $GITHUB_TOKEN
   skip_cleanup: true
-  file_glob: true
-  file: output/*
+  local-dir: output
   on:
     repo: MZIchenjl/kcwiki_bot
     branch: luaTable

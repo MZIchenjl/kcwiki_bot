@@ -2,7 +2,7 @@
 # https://github.com/Damnever/pigar
 
 # akashi-list.py: 12
-aiohttp == 3.0.1
+aiohttp == 3.0.6
 
 # akashi-list.py: 13
 beautifulsoup4 == 4.6.0
