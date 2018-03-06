@@ -3272,7 +3272,7 @@ d.equipDataTb = {
         ["废弃"] = {["燃料"] = 0, ["弹药"] = 0, ["钢材"] = 26, ["铝"] = 28},
         ["装备适用"] = {"战列舰", "战列巡洋舰", "航空战列舰"},
         ["备注"] = "",
-        ["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15m%C6%F3%BD%C5%C2%AC%B5%F7%B5%B7%2B21%B9%E6%C5%C5%C3%B5%B2%FE%C6%F3",
+        ["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15m%C6%F3%BD%C5%C2%AC%B5%F7%B5%B7%A1%DC21%B9%E6%C5%C5%C3%B5%B2%FE%C6%F3",
         ["英文Wiki"] = "http://kancolle.wikia.com/wiki/15m_Duplex_Rangefinder_%2B_Type_21_Radar_Kai_Ni"
     },
     ["143"] = {
