@@ -121,15 +121,17 @@ def map_lvl_up(series, ships):
             _ship = ships[shipid]
             if 'remodel' in _ship and 'next' in _ship['remodel']:
                 next_shipid = _ship['remodel']['next']
-                ships[next_shipid]['remodel_info'] = {
-                    'blueprint': next_blueprint,
-                    'catapult': next_catapult,
-                    'level': next_level
-                }
+                can_remodel = 1
+                if next_blueprint:
+                    can_remodel += 1
+                if next_catapult:
+                    can_remodel += 1
+                ships[next_shipid]['remodel_info'] = can_remodel
+                ships[shipid]['next_type'] = can_remodel
                 if next_loop:
                     ships[next_shipid]['remodel'].update({
-                        "next": shipid,
-                        "next_lvl": next_level
+                        'next': shipid,
+                        'next_lvl': next_level
                     })
 
 
@@ -143,7 +145,7 @@ COST_MAP = {
 REMODEL_TYPES = ['', '', '改装设计图x1', '改装设计图x1 试制甲板用弹射器x1']
 
 
-def remodel2str(ship_id, remodel_type, remodel_cost, ship_remodel, base_lvl):
+def remodel2str(ship_id, next_type, remodel_cost, ship_remodel, base_lvl):
     '''
     Gen the remodel info
     '''
@@ -172,7 +174,7 @@ def remodel2str(ship_id, remodel_type, remodel_cost, ship_remodel, base_lvl):
     if ship_id in REMODEL_INFO:
         remodel_extra = REMODEL_INFO[ship_id]
     else:
-        remodel_extra = REMODEL_TYPES[remodel_type]
+        remodel_extra = REMODEL_TYPES[next_type]
     return '        ["改造"] = {{{},{},{},{}{}}},\n'.format(
         remodel_lvl_str, remodel_cost_str, remodel_before_str, remodel_after_str,
         ', ["图纸"] = "{}"'.format(
@@ -233,14 +235,8 @@ def generate(wiki_ship, wctf_ship, table_dict):
     entry_str += '            ["初期装备"] = {{{}}}\n'.format(
         equip2str(wctf_ship['equip'], len(wctf_ship['slot'])))
     entry_str += '        },\n'
+    can_remodel = wctf_ship['remodel_info'] if 'remodel_info' in wctf_ship else 0
     can_drop = 1 if ('can_drop' in wiki_ship and wiki_ship['can_drop']) else -1
-    can_remodel = 0
-    if 'remodel_info' in wctf_ship:
-        can_remodel += 1
-        if 'blueprint' in wctf_ship['remodel_info'] and wctf_ship['remodel_info']['blueprint']:
-            can_remodel += 1
-        if 'catapult' in wctf_ship['remodel_info'] and wctf_ship['remodel_info']['catapult']:
-            can_remodel += 1
     can_build = 1 if 'can_construct' in wiki_ship and wiki_ship['can_construct'] else -1
     entry_str += '        ["获得"] = {{["掉落"] = {},["改造"] = {},["建造"] = {},["时间"] = {}}},\n'.format(
         can_drop, can_remodel, can_build, wctf_ship['buildtime'])
@@ -253,7 +249,8 @@ def generate(wiki_ship, wctf_ship, table_dict):
         wctf_ship['modernization'][3])
     entry_str += '        ["解体"] = {{["燃料"] = {},["弹药"] = {},["钢材"] = {},["铝"] = {}}},\n'.format(
         wctf_ship['scrap'][0], wctf_ship['scrap'][1], wctf_ship['scrap'][2], wctf_ship['scrap'][3])
-    entry_str += remodel2str(str(wctf_ship['id']), can_remodel, wctf_ship['remodel_cost'],
+    next_type = wctf_ship['next_type'] if 'next_type' in wctf_ship else 0
+    entry_str += remodel2str(str(wctf_ship['id']), next_type, wctf_ship['remodel_cost'],
                              wctf_ship['remodel'], wctf_ship['base_lvl'])
     entry_str += '        ["画师"] = "{}",\n'.format(
         get_relname(wctf_ship['rels']['illustrator'], wctf_ship['remodel']['prev']
