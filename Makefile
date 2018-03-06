@@ -1,4 +1,4 @@
-all: fetch akashi lua pack
+all: fetch akashi lua
 
 FETCH ?= wget
 RUN ?= bash
@@ -6,7 +6,7 @@ PYTHON3 ?= python3
 
 fetch:
 	@echo fetching new dbs...
-	@$(FETCH) -i sh/fetch_list -P db/
+	@$(FETCH) -i wctf_dbs -P db/
 	@echo new dbs fetched successfully!
 
 ships2lua:
@@ -43,7 +43,3 @@ rmdbs:
 	$(RM) db/ship_types.nedb
 	$(RM) db/ships.nedb
 	@echo db files cleaned!
-
-pack:
-	@$(RUN) sh/pack.sh
-	@echo output files packed successfully!

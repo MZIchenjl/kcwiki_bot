@@ -17,8 +17,8 @@ deploy:
   name: MZI
   email: macchenjl@foxmail.com
   github_token: $GITHUB_TOKEN
-  skip_cleanup: true
+  skip-cleanup: true
+  keep-history: true
   local-dir: output
   on:
-    repo: MZIchenjl/kcwiki_bot
     branch: luaTable
