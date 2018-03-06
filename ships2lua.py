@@ -3,6 +3,7 @@ Generate ships lua table
 from two sources: 'zh.kcwiki.org' and 'Who calls the fleet'.
 '''
 import requests
+import json
 import utils
 
 KCDATA_JSON_URL = 'http://kcwikizh.github.io/kcdata/ship/all.json'
@@ -25,6 +26,11 @@ def fetch_kcdata_json(url):
 # Folder name of db file and output file
 DB_FOLDER = 'db/'
 OUTPUT_FOLDER = 'output/'
+
+REMODEL_INFO = None
+
+with open(DB_FOLDER + 'remodel.json', 'r', encoding='utf-8') as fp:
+    REMODEL_INFO = json.load(fp)
 
 # Map from wctf ship id to kcwiki ship id
 STYPE_MAP = {1: 2, 2: 3, 3: 4, 4: 5, 5: 5,
@@ -52,10 +58,11 @@ def equip2str(equips, slot_size):
         if not equip:
             formated_equips[i] = '-1'
         elif isinstance(equip, dict):
-            formated_equips[i] = str(equip['id'])
+            formated_equips[i] = '{{["id"] = {}, ["star"] = {}}}'.format(
+                equip['id'], equip['star'])
         else:
             formated_equips[i] = str(equip)
-    return ','.join(formated_equips)
+    return ', '.join(formated_equips)
 
 
 def slot2str(slots):
@@ -65,7 +72,7 @@ def slot2str(slots):
     formated_slots = []
     for slot in slots:
         formated_slots.append(str(slot))
-    return ','.join(formated_slots)
+    return ', '.join(formated_slots)
 
 
 def safe_suffix(suffix, lan):
@@ -106,6 +113,8 @@ def map_lvl_up(series, ships):
         for ser_ship in ser_ships:
             next_blueprint = 'next_blueprint' in ser_ship and ser_ship['next_blueprint'] == 'on'
             next_catapult = 'next_catapult' in ser_ship and ser_ship['next_catapult'] == 'on'
+            next_loop = 'next_loop' in ser_ship and ser_ship['next_loop'] == 'on'
+
             next_level = ser_ship['next_lvl'] if 'next_lvl' in ser_ship \
                 and ser_ship['next_lvl'] else 0
             shipid = ser_ship['id']
@@ -117,6 +126,11 @@ def map_lvl_up(series, ships):
                     'catapult': next_catapult,
                     'level': next_level
                 }
+                if next_loop:
+                    ships[next_shipid]['remodel'].update({
+                        "next": shipid,
+                        "next_lvl": next_level
+                    })
 
 
 # Map the cost item from en to zh
@@ -126,8 +140,10 @@ COST_MAP = {
     'fuel': '燃料',
 }
 
+REMODEL_TYPES = ['', '', '改装设计图x1', '改装设计图x1 试制甲板用弹射器x1']
 
-def remodel2str(remodel_cost, ship_remodel, base_lvl):
+
+def remodel2str(ship_id, remodel_type, remodel_cost, ship_remodel, base_lvl):
     '''
     Gen the remodel info
     '''
@@ -138,7 +154,7 @@ def remodel2str(remodel_cost, ship_remodel, base_lvl):
         for cost_type, cost in remodel_cost.items():
             remodel_cost_list.append(
                 '["{}"] = {}'.format(COST_MAP[cost_type], cost))
-    remodel_cost_str = ','.join(remodel_cost_list)
+    remodel_cost_str = ', '.join(remodel_cost_list)
     remodel_lvl_str = '["等级"] = 0'
     if ship_remodel and 'next_lvl' in ship_remodel:
         remodel_lvl_str = '["等级"] = {}'.format(ship_remodel['next_lvl'])
@@ -152,8 +168,15 @@ def remodel2str(remodel_cost, ship_remodel, base_lvl):
     if ship_remodel and 'prev' in ship_remodel:
         remodel_before_str = '["改造前"] = "{}"'.format(
             WIKI_SHIPS[ship_remodel['prev']]['wiki_id'])
-    return '        ["改造"] = {{{},{},{},{}}},\n'.format(
-        remodel_lvl_str, remodel_cost_str, remodel_before_str, remodel_after_str
+    remodel_extra = ''
+    if ship_id in REMODEL_INFO:
+        remodel_extra = REMODEL_INFO[ship_id]
+    else:
+        remodel_extra = REMODEL_TYPES[remodel_type]
+    return '        ["改造"] = {{{},{},{},{}{}}},\n'.format(
+        remodel_lvl_str, remodel_cost_str, remodel_before_str, remodel_after_str,
+        ', ["图纸"] = "{}"'.format(
+            remodel_extra) if remodel_extra else ''
     )
 
 
@@ -230,7 +253,7 @@ def generate(wiki_ship, wctf_ship, table_dict):
         wctf_ship['modernization'][3])
     entry_str += '        ["解体"] = {{["燃料"] = {},["弹药"] = {},["钢材"] = {},["铝"] = {}}},\n'.format(
         wctf_ship['scrap'][0], wctf_ship['scrap'][1], wctf_ship['scrap'][2], wctf_ship['scrap'][3])
-    entry_str += remodel2str(wctf_ship['remodel_cost'],
+    entry_str += remodel2str(str(wctf_ship['id']), can_remodel, wctf_ship['remodel_cost'],
                              wctf_ship['remodel'], wctf_ship['base_lvl'])
     entry_str += '        ["画师"] = "{}",\n'.format(
         get_relname(wctf_ship['rels']['illustrator'], wctf_ship['remodel']['prev']

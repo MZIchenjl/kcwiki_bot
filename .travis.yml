@@ -6,6 +6,9 @@ install:
 branches:
   only:
     - luaTable
+cache:
+  directories:
+    - .cache
 script:
   - mkdir output
   - make all

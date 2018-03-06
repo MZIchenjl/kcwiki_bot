@@ -28,4 +28,5 @@ test.py
 .cache
 db/*
 !db/remarks.json
+!db/remodel.json
 output
