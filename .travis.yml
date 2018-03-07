@@ -12,6 +12,8 @@ cache:
 script:
   - mkdir output
   - make all
+before_deploy:
+  - cp README.md output/README.md
 deploy:
   provider: pages
   name: MZI
