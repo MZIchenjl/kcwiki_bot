@@ -4873,7 +4873,9 @@ d.equipDataTb = {
         ["属性"] = {["对空"] = 10, ["回避"] = 1, ["命中"] = 1, ["航程"] = 5},
         ["废弃"] = {["燃料"] = 3, ["弹药"] = 2, ["钢材"] = 0, ["铝"] = 9},
         ["装备适用"] = {},
-        ["备注"] = ""
+        ["备注"] = "",
+        ["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%CD%BC%B0%C0%EF%20%BC%C0%C9%F7",
+        ["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_4_Fighter_Hayate"
     },
     ["219"] = {
         ["ID"] = 219,
