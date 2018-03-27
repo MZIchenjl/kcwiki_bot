@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import re
 import os
 import sys
@@ -399,8 +401,8 @@ class KcwikiVoiceClient(KcwikiClient):
             if curShipId in self.voiceDataJson:
                 for voiceId in self.voiceDataJson[curShipId]['voice_status']:
                     if self.voiceDataJson[curShipId]['voice_status'][voiceId] == 'retry':
-                        raise KcwikiClientException('''存在未修复的语音，部分下载需要重新获取。
-请输入 python voice_bot.py f 或者 python voice_bot.py fix 来修复。''')
+                        raise KcwikiClientException(
+                            '存在未修复的语音，部分下载需要重新获取。\n请输入 python voice_bot.py f 或者 python voice_bot.py fix 来修复。')
                     if 'after_ship_id' in curShipInfo and curShipInfo['after_ship_id'] != None:
                         nextShipId = str(curShipInfo['after_ship_id'])
                         if nextShipId in self.voiceDataJson:
@@ -468,11 +470,12 @@ class KcwikiVoiceClient(KcwikiClient):
                         print('{}\t{}\n\t{}'.format(
                             num, resultPrint, resp_text
                         ))
-                        self.uploadVoiceLog.write('{}\n\t{}\n'.format(
-                            resultPrint, json.dumps(resp_json)
-                        ))
                         self.uploadVoiceLog.flush()
                         if 'warnings' in resp_json['upload']:
+                            self.uploadVoiceLog.write('{}\n\t{}\n'.format(
+                                resultPrint, json.dumps(
+                                    resp_json['upload']['warnings'])
+                            ))
                             if 'duplicate' in resp_json['upload']['warnings']:
                                 duplicatedWikiFilenames = resp_json['upload']['warnings']['duplicate']
                                 self.voiceDataJson[shipId]['voice_status'][voiceId] = 'duplicate_2'
