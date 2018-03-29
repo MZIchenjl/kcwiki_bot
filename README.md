@@ -10,4 +10,4 @@
 
 装备数据：<https://mzichenjl.github.io/kcwiki_bot/luatable-items.lua>
 
-
+深海装备数据：<https://mzichenjl.github.io/kcwiki_bot/shinkai-items.lua>

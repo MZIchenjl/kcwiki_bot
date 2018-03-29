@@ -6,7 +6,7 @@ PYTHON3 ?= python3
 
 fetch:
 	@echo fetching new dbs...
-	@$(FETCH) -i wctf_dbs -P db/
+	@$(FETCH) -i wctf_dbs.txt -P db/
 	@echo new dbs fetched successfully!
 
 ships2lua:
@@ -15,10 +15,13 @@ ships2lua:
 items2lua:
 	@$(PYTHON3) items2lua.py
 
+shinkai_items2lua:
+	@$(PYTHON3) shinkai-items2lua.py
+
 akashi:
 	@$(PYTHON3) akashi-list.py
 
-lua: ships2lua items2lua
+lua: ships2lua items2lua shinkai_items2lua
 	@echo lua files generated successfully!
 
 clean:

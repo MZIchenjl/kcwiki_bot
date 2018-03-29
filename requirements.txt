@@ -2,7 +2,7 @@
 # https://github.com/Damnever/pigar
 
 # akashi-list.py: 12
-aiohttp == 3.0.6
+aiohttp == 3.1.0
 
 # akashi-list.py: 13
 beautifulsoup4 == 4.6.0
@@ -10,5 +10,6 @@ beautifulsoup4 == 4.6.0
 # akashi-list.py: 10
 lxml == 4.1.1
 
+# shinkai-items2lua.py: 4
 # ships2lua.py: 5
 requests == 2.18.4
