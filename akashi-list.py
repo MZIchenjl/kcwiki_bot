@@ -4,12 +4,13 @@
 akashi.py
 爬取 http://akashi-list.me 的装备改修数据
 '''
+import asyncio
+import json
 import os
 import time
-import json
-import lxml
-import asyncio
+
 import aiohttp
+import lxml
 from bs4 import BeautifulSoup, element
 
 
@@ -553,12 +554,13 @@ class AkashiCrawler:
         dones, pendings = await asyncio.wait(tasks)
         for task in dones:
             detail = task.result()
-            wp_id = detail['id']
+            wp_id = int(detail['id'])
             weapon_list[wp_id] = detail
         print('{} done, {} pendings.'.format(len(dones), len(pendings)))
         akashi_json['items'] = weapon_list
         with open(self.OUTPUT, 'w', encoding='utf_8') as fjson:
-            json.dump(akashi_json, fjson, ensure_ascii=False)
+            json.dump(akashi_json, fjson, ensure_ascii=False,
+                      indent=2, sort_keys=True)
 
 
 async def main():
