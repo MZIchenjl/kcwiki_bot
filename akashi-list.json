@@ -6998,6 +6998,18 @@
                 1,
                 1
               ]
+            },
+            {
+              "support_ship": "武蔵改",
+              "support_weeks": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ]
             }
           ],
           "upgrade": {
@@ -8512,6 +8524,18 @@
                 1,
                 1,
                 1
+              ]
+            },
+            {
+              "support_ship": "武蔵改二",
+              "support_weeks": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
               ]
             }
           ],
@@ -19784,9 +19808,21 @@
               ]
             },
             {
-              "support_ship": "武蔵(改二不可)",
+              "support_ship": "武蔵",
               "support_weeks": [
                 1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "support_ship": "武蔵改二",
+              "support_weeks": [
+                0,
                 0,
                 1,
                 0,
@@ -24846,11 +24882,11 @@
               "remodelkit_num": "4 / 5"
             },
             "6 ～ 9": {
-              "buildkit_num": "7 / ?",
+              "buildkit_num": "7 / 8",
               "equipkit": [
                 "12.7cm連装砲B型改二 × 2"
               ],
-              "remodelkit_num": "6 / ?"
+              "remodelkit_num": "6 / 7"
             }
           },
           "support_ships": [
