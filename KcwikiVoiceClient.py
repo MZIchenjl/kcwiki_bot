@@ -69,11 +69,10 @@ class KcwikiVoiceClient(KcwikiClient):
         self.seasonalSuffix = self.config['voice_config']['seasonal_suffix']
         seasonalAlterPattern = re.compile(r'(^[A-Z][A-Za-z]+)[0-9]{4}$')
         re_result = re.match(seasonalAlterPattern, self.seasonalSuffix)
-        if not re_result:
-            raise KcwikiClientException(
-                r'季节性语音后缀必须满足 ^[A-Z][A-Za-z]+[0-9]{4}$ 表达式！'
-            )
-        self.seasonalSuffixAlter = re_result.group(1)
+        if re_result:
+            self.seasonalSuffixAlter = re_result.group(1)
+        else:
+            self.seasonalSuffixAlter = self.seasonalSuffix
         self.newShipId = self.config['voice_config']['new_ship_id']
         self.updateDate = self.config['voice_config']['update_date']
 
@@ -460,6 +459,9 @@ class KcwikiVoiceClient(KcwikiClient):
                             '{}({}) : {} -> Success\n'.
                             format(shipId, chineseName, wikiFilename)
                         )
+                        print('{}\t{}'.format(
+                            num, resultPrint
+                        ))
                         self.uploadVoiceLog.flush()
                         self.voiceDataJson[shipId]['voice_status'][voiceId] = 'upload'
                     else:
