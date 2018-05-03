@@ -4,6 +4,9 @@ from 'Who calls the fleet'.
 '''
 import json
 import utils
+import requests
+
+KCDATA_URL = 'http://kcwikizh.github.io/kcdata/slotitem/all.json'
 
 DB_FOLDER = 'db/'
 OUTPUT_FOLDER = 'output/'
@@ -33,6 +36,7 @@ SHIP_NAMESUFFIX = {}
 ITEM_TYPES = {}
 REMARKS = {}
 AKASHI_DATA = {}
+KCDATA = {}
 
 
 def load_remark(path):
@@ -45,6 +49,16 @@ def load_remark(path):
         for remark_id, content in raw_data.items():
             remarks[int(remark_id)] = content
     return remarks
+
+
+def fetch_data(url):
+    response = requests.get(url)
+    rawjson = response.json()
+    ret = {}
+    for item in rawjson:
+        _id = item['id']
+        ret[_id] = item
+    return ret
 
 
 def load_akashi(path):
@@ -219,7 +233,7 @@ def gen_improvement(improvement, idx):
     return improve_entry
 
 
-def generate(wctf_item, luatable_dict):
+def generate(wctf_item, kcdata_item, luatable_dict):
     '''
     Generate items lua table entry
     from 'Who calls the fleet'.
@@ -239,6 +253,13 @@ def generate(wctf_item, luatable_dict):
         for _type in type_ingame:
             types.append(str(_type))
         lua_entry += '        ["类别"] = {{{}}},\n'.format(','.join(types))
+    elif 'type' in kcdata_item:
+        type_ingame = kcdata_item['type']
+        types = list()
+        for _type in type_ingame:
+            types.append(str(_type))
+        lua_entry += '        ["类别"] = {{{}}},\n'.format(
+            ','.join(types))
     lua_entry += '        ["稀有度"] = "{}",\n'.format(
         '☆' * (wctf_item['rarity'] + 1))
     lua_entry += '        ["状态"] = {{["开发"] = {}, ["改修"] = {}, ["更新"] = {}, ["熟练"] = {}}},\n'\
@@ -276,6 +297,8 @@ def generate(wctf_item, luatable_dict):
     luatable_dict[item_id] = lua_entry
 
 
+KCDATA = fetch_data(KCDATA_URL)
+
 # Convert nedb to json
 utils.nedb2json(DB_FOLDER + 'ships.nedb', DB_FOLDER + 'ships.json')
 utils.nedb2json(DB_FOLDER + 'ship_types.nedb', DB_FOLDER + 'ship_types.json')
@@ -303,7 +326,7 @@ LUATABLE_STR = '''local d = {}
 d.equipDataTb = {
 '''
 for item in ITEMS.values():
-    generate(item, LUATABLE_DICT)
+    generate(item, KCDATA[item['id']], LUATABLE_DICT)
 for itid, entry in sorted(LUATABLE_DICT.items()):
     LUATABLE_STR += entry
 LUATABLE_STR = LUATABLE_STR.rstrip(',\n')
