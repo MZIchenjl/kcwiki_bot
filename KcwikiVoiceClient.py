@@ -577,8 +577,6 @@ class KcwikiVoiceClient(KcwikiClient):
                     })
                 if voiceStatus == 'duplicate_2':
                     duplicatedWikiFilename = self.voiceDataJson[shipId]['voice_duplicate'][voiceId][0]
-                    if duplicatedWikiFilename.find(self.seasonalSuffixAlter) == -1:
-                        continue
                     oldUnitList[stype].update({
                         duplicatedWikiFilename[:-4]:
                         {
