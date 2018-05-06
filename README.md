@@ -13,5 +13,7 @@
 深海装备数据：<https://mzichenjl.github.io/kcwiki_bot/shinkai-items.lua>
 
 深海敌舰数据：<https://mzichenjl.github.io/kcwiki_bot/shinkai-ships.lua>
-\n## 更新时间
-\nSun, 06 May 2018 09:23:34 +0000
+
+## 更新时间
+
+Sun, 06 May 2018 09:27:06 +0000
