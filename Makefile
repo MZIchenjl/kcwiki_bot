@@ -18,10 +18,13 @@ items2lua:
 shinkai_items2lua:
 	@$(PYTHON3) shinkai-items2lua.py
 
+shinkai_ships2lua:
+	@$(PYTHON3) shinkai-ships2lua.py
+
 akashi:
 	@$(PYTHON3) akashi-list.py
 
-lua: ships2lua items2lua shinkai_items2lua
+lua: ships2lua items2lua shinkai_items2lua shinkai_ships2lua
 	@echo lua files generated successfully!
 
 clean:
@@ -33,6 +36,7 @@ clean:
 	$(RM) db/ship_series.json
 	$(RM) db/ship_types.json
 	$(RM) db/ships.json
+	$(RM) db/shinkai-items.json
 	$(RM) output/*
 	@echo db files and output files cleaned!
 
