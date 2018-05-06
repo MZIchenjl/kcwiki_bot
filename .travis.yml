@@ -13,6 +13,10 @@ script:
   - mkdir output
   - make all
 before_deploy:
+  - echo "" >> README.md
+  - echo "## 更新时间" >> README.md
+  - echo "" >> README.md
+  - echo $(date -R) >> README.md
   - cp README.md output/README.md
 deploy:
   edge:
