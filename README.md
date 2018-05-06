@@ -11,3 +11,7 @@
 装备数据：<https://mzichenjl.github.io/kcwiki_bot/luatable-items.lua>
 
 深海装备数据：<https://mzichenjl.github.io/kcwiki_bot/shinkai-items.lua>
+
+深海敌舰数据：<https://mzichenjl.github.io/kcwiki_bot/shinkai-ships.lua>
+\n## 更新时间
+\nSun, 06 May 2018 09:18:16 +0000
