@@ -172,6 +172,8 @@ def gen_lua(api_id, enemy_info):
         elif type(value) is dict or type(value) is OrderedDict:
             ret_text += '{\n'
             for k, v in value.items():
+                if type(v) is list:
+                    v = '{{{}}}'.format(', '.join(list(map(lambda x: str(x), v))))
                 ret_text += '\t\t\t["{}"] = {},\n'.format(k, v)
             ret_text = ret_text.rstrip(',\n')
             ret_text += '\n'
