@@ -18,6 +18,7 @@ before_deploy:
   - echo "" >> README.md
   - echo $(date -R) >> README.md
   - cp README.md output/README.md
+  - cp CNAME output/CNAME
 deploy:
   edge:
     branch: v1.8.47
