@@ -24,6 +24,30 @@ ATTRS = {
     # '_asw_attack': '开幕反潜'
 }
 
+STYPE = {
+    1: '海防舰', 2: '驱逐舰', 3: '轻巡洋舰', 4: '重雷装巡洋舰', 5: '重巡洋舰',
+    6: '航空巡洋舰', 7: '轻空母', 8: '战舰', 9: '战舰', 10: '航空战舰',
+    11: '正规空母', 12: '超弩级战舰', 13: '潜水艇', 14: '潜水空母', 15: '补给舰',
+    16: '水上机母舰', 17: '扬陆舰', 18: '装甲空母', 19: '工作舰', 20: '潜水母舰',
+    21: '练习巡洋舰', 22: '补给舰'
+}
+
+S_STYPE = {
+    1536: '浮动要塞',
+    1537: '浮动要塞',
+    1538: '浮动要塞',
+    1549: '浮动要塞',
+    1550: '浮动要塞',
+    1551: '浮动要塞',
+    1637: '鱼雷艇',
+    1638: '鱼雷艇',
+    1639: '鱼雷艇',
+    1640: '鱼雷艇',
+    1665: '路基',
+    1666: '路基',
+    1667: '路基'
+}
+
 REDIRECT = {
     '22inch Torpedo Late Model': 'High-speed Abyssal Torpedo'
 }
@@ -47,7 +71,7 @@ STATUS = {
 ATTR_WEIGHT = {
     '日文名': 0,
     '中文名': 1,
-    '分类号': 2,
+    'kcwiki分类': 2,
     '稀有度': 3,
     '属性': 4,
     '装备': 5
@@ -113,9 +137,14 @@ for enemy_title in enemy_titles:
         yomi = yomi if yomi else ''
         chinese_name = KCDATA_JSON[api_id]['chinese_name']
         chinese_name = chinese_name if chinese_name else ''
+        category = ''
+        if api_id in S_STYPE:
+            category = S_STYPE[api_id]
+        else:
+            category = STYPE[KCDATA_JSON[api_id]['stype']]
         SHINKAI_DATA[api_id] = {
             '中文名': chinese_name,
-            '分类号': KCDATA_JSON[api_id]['stype'],
+            'kcwiki分类': category,
             '装备': {},
             '属性': {}
         }
