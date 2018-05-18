@@ -15,13 +15,21 @@ ENEMY_BOSS_URL = 'http://kancolle.wikia.com/api.php?action=query&list=categoryme
 ATTRS = {
     '_japanese_name': '日文名',
     # '_opening_torpedo': '开幕鱼雷',
-    '_pillbox': '地堡',
+    # '_pillbox': '地堡',
     # '_slots': '格数',
     # '_night_bombing': '夜战轰炸',
     '_rarity': '稀有度',
     '_equipment': '装备',
     # '_air_power': '制空值',
     # '_asw_attack': '开幕反潜'
+}
+
+EXTRA = {
+    '_opening_torpedo': '开幕鱼雷',
+    '_slots': '格数',
+    '_night_bombing': '夜战轰炸',
+    '_air_power': '制空值',
+    '_asw_attack': '开幕反潜'
 }
 
 STYPE = {
