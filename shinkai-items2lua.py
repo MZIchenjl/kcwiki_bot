@@ -22,23 +22,20 @@ raw_enemy_equips_data = session.get(ENEMY_EQUIPS_URL).json()[
 
 ATTRS = {
     '_japanese_name': '日文名',  '_rarity': '稀有度',
-    '_upgradable': '可升级', '_buildable': '可建造'
+    '_upgradable': '可升级', '_buildable': '可建造',
+    '_luck': '运', '_flight_range': '陆航距离', '_shelling_accuracy': '命中',
+    '_torpedo': '雷装', '_armor': '装甲', '_aa': '对空', '_bombing': '爆装',
+    '_asw': '对潜', '_los': '索敌', '_flight_cost': '陆航消耗', '_speed': '速力',
+    '_evasion': '回避', '_firepower': '火力', '_range': '射程', '_torpedo_accuracy': '雷击命中',
 }
 
-RANGE_STR = ['"无"', '"短"', '"中"', '"长"', '"超长"', '"超超长"']
+RANGE_STR = ['无', '短', '中', '长', '超长', '超超长']
 
 SCRAPS = {
     '_scrap_ammo': '弹药',
     '_scrap_bauxite': '铝土',
     '_scrap_fuel': '燃料',
     '_scrap_steel': '钢材'
-}
-
-STATUS = {
-    '_luck': '运', '_flight_range': '陆航距离', '_shelling_accuracy': '命中',
-    '_torpedo': '雷装', '_armor': '装甲', '_aa': '对空', '_bombing': '爆装',
-    '_asw': '对潜', '_los': '索敌', '_flight_cost': '陆航消耗', '_speed': '速力',
-    '_evasion': '回避', '_firepower': '火力', '_range': '射程', '_torpedo_accuracy': '雷击命中',
 }
 
 SPEACIALS = {
@@ -90,8 +87,7 @@ for enemy_equip in raw_enemy_equips_data:
         '_name': equip_info['_name'],
         '类型': KCDATA_JSON[enemy_equip_id]['type'],
         '中文名': chinese_name,
-        '分解': {},
-        '属性': {}
+        '分解': {}
     }
     if enemy_equip_id in SPEACIALS:
         SHINKAI_DATA[enemy_equip_id]['备注'] = SPEACIALS[enemy_equip_id]
@@ -105,15 +101,10 @@ for enemy_equip in raw_enemy_equips_data:
         if attr in SCRAPS:
             SHINKAI_DATA[enemy_equip_id]['分解'][
                 SCRAPS[attr]] = attr_value
-        elif attr in STATUS:
-            SHINKAI_DATA[enemy_equip_id]['属性'][
-                STATUS[attr]] = attr_value
         elif attr in ATTRS:
             SHINKAI_DATA[enemy_equip_id][ATTRS[attr]] = attr_value
     if not len(SHINKAI_DATA[enemy_equip_id]['分解']):
         del SHINKAI_DATA[enemy_equip_id]['分解']
-    if not len(SHINKAI_DATA[enemy_equip_id]['属性']):
-        del SHINKAI_DATA[enemy_equip_id]['属性']
     tmp_dict = OrderedDict()
     for key, val in sorted(
             SHINKAI_DATA[enemy_equip_id].items(), key=lambda x: attr_key(x[0])):

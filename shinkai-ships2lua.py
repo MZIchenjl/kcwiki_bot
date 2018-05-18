@@ -14,14 +14,14 @@ ENEMY_BOSS_URL = 'http://kancolle.wikia.com/api.php?action=query&list=categoryme
 
 ATTRS = {
     '_japanese_name': '日文名',
-    '_opening_torpedo': '开幕鱼雷',
+    # '_opening_torpedo': '开幕鱼雷',
     '_pillbox': '地堡',
-    '_slots': '格数',
-    '_night_bombing': '夜战轰炸',
+    # '_slots': '格数',
+    # '_night_bombing': '夜战轰炸',
     '_rarity': '稀有度',
     '_equipment': '装备',
-    '_air_power': '制空值',
-    '_asw_attack': '开幕反潜'
+    # '_air_power': '制空值',
+    # '_asw_attack': '开幕反潜'
 }
 
 REDIRECT = {
@@ -47,9 +47,10 @@ STATUS = {
 ATTR_WEIGHT = {
     '日文名': 0,
     '中文名': 1,
-    '稀有度': 2,
-    '属性': 3,
-    '装备': 4
+    '分类号': 2,
+    '稀有度': 3,
+    '属性': 4,
+    '装备': 5
 }
 
 
@@ -114,6 +115,7 @@ for enemy_title in enemy_titles:
         chinese_name = chinese_name if chinese_name else ''
         SHINKAI_DATA[api_id] = {
             '中文名': chinese_name,
+            '分类号': KCDATA_JSON[api_id]['stype'],
             '装备': {},
             '属性': {}
         }
@@ -173,7 +175,8 @@ def gen_lua(api_id, enemy_info):
             ret_text += '{\n'
             for k, v in value.items():
                 if type(v) is list:
-                    v = '{{{}}}'.format(', '.join(list(map(lambda x: str(x), v))))
+                    v = '{{{}}}'.format(
+                        ', '.join(list(map(lambda x: str(x), v))))
                 ret_text += '\t\t\t["{}"] = {},\n'.format(k, v)
             ret_text = ret_text.rstrip(',\n')
             ret_text += '\n'
