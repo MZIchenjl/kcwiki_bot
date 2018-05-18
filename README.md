@@ -4,12 +4,12 @@
 
 更新频率为每日一次。
 
-明石工厂数据：<https://mzichenjl.github.io/kcwiki_bot/akashi-list.json>
+明石工厂数据：<https://kcwiki-bot.mzi.moe/akashi-list.json>
 
-舰娘数据：<https://mzichenjl.github.io/kcwiki_bot/luatable-ships.lua>
+舰娘数据：<https://kcwiki-bot.mzi.moe/luatable-ships.lua>
 
-装备数据：<https://mzichenjl.github.io/kcwiki_bot/luatable-items.lua>
+装备数据：<https://kcwiki-bot.mzi.moe/luatable-items.lua>
 
-深海装备数据：<https://mzichenjl.github.io/kcwiki_bot/shinkai-items.lua>
+深海装备数据：<https://kcwiki-bot.mzi.moe/shinkai-items.lua>
 
-深海敌舰数据：<https://mzichenjl.github.io/kcwiki_bot/shinkai-ships.lua>
+深海敌舰数据：<https://kcwiki-bot.mzi.moe/shinkai-ships.lua>
