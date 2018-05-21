@@ -177,13 +177,15 @@ for enemy_title in enemy_titles:
                 attr_value = 0
             if attr in STATUS:
                 if attr == '_firepower' and\
+                    (chinese_name.find('WO') != -1 or chinese_name.find('NU') != -1) and\
                     'DayBattle' in extra_data:
                     attr_value = [attr_value, extra_data['DayBattle']]
                 SHINKAI_DATA[api_id]['属性'][
                     STATUS[attr]] = attr_value
             elif attr in ATTRS:
                 SHINKAI_DATA[api_id][ATTRS[attr]] = attr_value
-        if 'DayBattle' in extra_data:
+        if (chinese_name.find('WO') != -1 or chinese_name.find('NU') != -1) and\
+            'DayBattle' in extra_data:
             if '火力' not in SHINKAI_DATA[api_id]['属性']:
                 SHINKAI_DATA[api_id]['属性']['火力'] = [0, extra_data['DayBattle']]
         if not len(SHINKAI_DATA[api_id]['装备']):
