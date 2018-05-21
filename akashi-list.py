@@ -7,6 +7,7 @@ akashi.py
 import asyncio
 import json
 import os
+import re
 import time
 
 import aiohttp
@@ -19,6 +20,7 @@ class AkashiCrawler:
     SITEROOT = 'http://akashi-list.me'
     OUTPUT = 'output/akashi-list.json'
     CACHE_DIR = '.cache/'
+    ID_PATTERN = re.compile(r'[0-9]+')
 
     def __init__(self, http_proxy=None, cache=True, sannma=False):
         self.http_proxy = http_proxy
@@ -72,7 +74,11 @@ class AkashiCrawler:
             weapon_selector = content_soup.select('div.weapon')
             weapon_id_list = list()
             for weapon in weapon_selector:
-                weapon_id_list.append(weapon.attrs['id'].strip())
+                if 'id' in weapon.attrs:
+                    weapon_id_list.append(weapon.attrs['id'].strip())
+                else:
+                    _id = 'w' + self.ID_PATTERN.search(weapon.attrs['data-title']).group()
+                    weapon_id_list.append(_id.strip())
             self.tot_items = len(weapon_id_list)
             return weapon_id_list, sannma_stats
 
