@@ -14,14 +14,7 @@ ENEMY_BOSS_URL = 'http://kancolle.wikia.com/api.php?action=query&list=categoryme
 
 ATTRS = {
     '_japanese_name': '日文名',
-    # '_opening_torpedo': '开幕鱼雷',
-    # '_pillbox': '地堡',
-    # '_slots': '格数',
-    # '_night_bombing': '夜战轰炸',
-    '_rarity': '稀有度',
-    '_equipment': '装备',
-    # '_air_power': '制空值',
-    # '_asw_attack': '开幕反潜'
+    '_equipment': '装备'
 }
 
 EXTRA = {
@@ -39,6 +32,8 @@ STYPE = {
     16: '水上机母舰', 17: '扬陆舰', 18: '装甲空母', 19: '工作舰', 20: '潜水母舰',
     21: '练习巡洋舰', 22: '补给舰'
 }
+
+AIR_STYPES = [ 7, 11, 18 ]
 
 S_STYPE = {
     1536: '要塞',
@@ -85,6 +80,20 @@ ATTR_WEIGHT = {
     '装备': 5
 }
 
+FIRE_PATTERN = re.compile(r'[0-9]+')
+
+def load_extra(filename):
+    ret = {}
+    with open(filename, 'r', encoding='utf-8') as fp:
+        raw = json.load(fp)
+        for enemy in raw:
+            _id = enemy['id']
+            daybattle = enemy['extra']['DayBattle']
+            res = FIRE_PATTERN.search(daybattle)
+            if res:
+                daybattle = res.group()
+                ret[_id] = daybattle
+    return ret
 
 def load_items(filename):
     ret = {}
@@ -94,12 +103,10 @@ def load_items(filename):
             ret[val['_name']] = int(key)
     return ret
 
-
 def attr_key(key):
     if key not in ATTR_WEIGHT:
         return 5
     return ATTR_WEIGHT[key]
-
 
 KCDATA_JSON = {}
 session = requests.Session()
@@ -126,6 +133,8 @@ LUATABLE_PATTERN = re.compile(r'{[\s\S]*}')
 SHINKAI_DATA = {}
 SHINKAI_ITEMS = load_items('db/shinkai-items.json')
 
+EXTRA_DATA = {}
+EXTRA_DATA = load_extra('db/enemy_extra.json')
 for enemy_title in enemy_titles:
     raw_txt = session.get(WIKIA_URL.format(enemy_title)).text
     re_result = re.search(LUATABLE_PATTERN, raw_txt)
@@ -141,15 +150,17 @@ for enemy_title in enemy_titles:
             api_id += 1000
         if api_id not in KCDATA_JSON:
             continue
+        _api_id = str(api_id)
         yomi = KCDATA_JSON[api_id]['yomi']
         yomi = yomi if yomi else ''
         chinese_name = KCDATA_JSON[api_id]['chinese_name']
         chinese_name = chinese_name if chinese_name else ''
         category = ''
+        stype = KCDATA_JSON[api_id]['stype']
         if api_id in S_STYPE:
             category = S_STYPE[api_id]
         else:
-            category = STYPE[KCDATA_JSON[api_id]['stype']]
+            category = STYPE[stype]
         SHINKAI_DATA[api_id] = {
             '中文名': chinese_name,
             'kcwiki分类': category,
@@ -178,8 +189,6 @@ for enemy_title in enemy_titles:
                     if equip_name and equip_name not in SHINKAI_ITEMS:
                         if equip_name in REDIRECT:
                             equip_name = REDIRECT[equip_name]
-                        else:
-                            print(equip_name)
                     if equip_name and equip_name in SHINKAI_ITEMS:
                         equip_id = SHINKAI_ITEMS[equip_name]
                     equips['装备'].append(equip_id)
@@ -189,10 +198,17 @@ for enemy_title in enemy_titles:
             elif attr_value == False:
                 attr_value = 0
             if attr in STATUS:
+                if attr == '_firepower' and\
+                    stype in AIR_STYPES and \
+                    _api_id in EXTRA_DATA:
+                    attr_value = [attr_value, int(EXTRA_DATA[_api_id])]
                 SHINKAI_DATA[api_id]['属性'][
                     STATUS[attr]] = attr_value
             elif attr in ATTRS:
                 SHINKAI_DATA[api_id][ATTRS[attr]] = attr_value
+        if stype in AIR_STYPES and _api_id in EXTRA_DATA:
+            if '火力' not in SHINKAI_DATA[api_id]['属性']:
+                SHINKAI_DATA[api_id]['属性']['火力'] = [0, int(EXTRA_DATA[_api_id])]
         if not len(SHINKAI_DATA[api_id]['装备']):
             del SHINKAI_DATA[api_id]['装备']
         if not len(SHINKAI_DATA[api_id]['属性']):

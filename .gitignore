@@ -29,4 +29,5 @@ test.py
 db/*
 !db/remarks.json
 !db/remodel.json
+!db/enemy_extra.json
 output

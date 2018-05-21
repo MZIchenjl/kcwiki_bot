@@ -1,0 +1,4048 @@
+[
+    {
+        "id": "1513",
+        "AirPower": " 0",
+        "Slots": " 0",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1526",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (23)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Main Gun (36)"
+        }
+    },
+    {
+        "id": "1558",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (67)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Main Gun (124)"
+        }
+    },
+    {
+        "id": "1508",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (25)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "57",
+            "ASWAttack": "Day/Night (23)",
+            "NightBattle": "Cut-in: Torpedo (108 x2)"
+        }
+    },
+    {
+        "id": "1521",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (43)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "87",
+            "ASWAttack": "Day/Night (25)",
+            "NightBattle": "Cut-in: Torpedo (180 x2)"
+        }
+    },
+    {
+        "id": "1559",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (58)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "145",
+            "ASWAttack": "Day/Night (27)",
+            "NightBattle": "Cut-in: Torpedo (289 x2)"
+        }
+    },
+    {
+        "id": "1531",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "67",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (93 x2)"
+        }
+    },
+    {
+        "id": "1533",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "99",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "99",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (141 x2)"
+        }
+    },
+    {
+        "id": "1535",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "126",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "126",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (181 x2)"
+        }
+    },
+    {
+        "id": "1570",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "85",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (136 x2)"
+        }
+    },
+    {
+        "id": "1571",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "125",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "125",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (226 x2)"
+        }
+    },
+    {
+        "id": "1572",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "170",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "170",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (292 x2)"
+        }
+    },
+    {
+        "id": "1530",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (69 x2)"
+        }
+    },
+    {
+        "id": "1532",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "83",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "83",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (117 x2)"
+        }
+    },
+    {
+        "id": "1534",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "113",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "113",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (162 x2)"
+        }
+    },
+    {
+        "id": "1512",
+        "AirPower": " 10",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "40,68",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (65)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1525",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86,57",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (74)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1528",
+        "AirPower": " 28",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "88,58",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (112)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (31)"
+        }
+    },
+    {
+        "id": "1591",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (67)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (80 x2)</span>",
+            "ClosingTorpedo": "89",
+            "ASWAttack": "Day/Night (56)",
+            "NightBattle": "Double Attack (175 x2)"
+        }
+    },
+    {
+        "id": "1592",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (73)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (87 x2)</span>",
+            "ClosingTorpedo": "97",
+            "ASWAttack": "Day/Night (56)",
+            "NightBattle": "Double Attack (192 x2)"
+        }
+    },
+    {
+        "id": "1507",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (32)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "35",
+            "ASWAttack": "Day/Night (27)",
+            "NightBattle": "Cut-in: Mixed (74 x2)"
+        }
+    },
+    {
+        "id": "1520",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (44)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "55",
+            "ASWAttack": "Day/Night (27)",
+            "NightBattle": "Cut-in: Mixed (115 x2)"
+        }
+    },
+    {
+        "id": "1505",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (21)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "29",
+            "ASWAttack": "Day/Night (23)",
+            "NightBattle": "Single Attack (40)"
+        }
+    },
+    {
+        "id": "1518",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (37)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "45",
+            "ASWAttack": "Day/Night (25)",
+            "NightBattle": "Single Attack (72)"
+        }
+    },
+    {
+        "id": "1554",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (49)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "77",
+            "ASWAttack": "Day/Night (61)",
+            "NightBattle": "Single Attack (116)"
+        }
+    },
+    {
+        "id": "1506",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (24)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "33",
+            "ASWAttack": "Day/Night (25)",
+            "NightBattle": "Single Attack (47)"
+        }
+    },
+    {
+        "id": "1519",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (42)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "53",
+            "ASWAttack": "Day/Night (26)",
+            "NightBattle": "Single Attack (85)"
+        }
+    },
+    {
+        "id": "1555",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (56)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "85",
+            "ASWAttack": "Day/Night (63)",
+            "NightBattle": "Single Attack (131)"
+        }
+    },
+    {
+        "id": "1510",
+        "AirPower": " 8",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "37,62",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (65)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1523",
+        "AirPower": " 24",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "39,66",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (65)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1560",
+        "AirPower": " 23",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "53,53,79",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (113)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (20)",
+            "NightBattle": "Bombing (24)"
+        }
+    },
+    {
+        "id": "1509",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (45)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "39",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (96 x2)"
+        }
+    },
+    {
+        "id": "1522",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (74)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (88 x2)</span>",
+            "ClosingTorpedo": "47",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (133 x2)"
+        }
+    },
+    {
+        "id": "1527",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (84)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (100 x2)</span>",
+            "ClosingTorpedo": "63",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (178 x2)"
+        }
+    },
+    {
+        "id": "1594",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (94)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (112 x2)</span>",
+            "ClosingTorpedo": "81",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (214 x2)"
+        }
+    },
+    {
+        "id": "1595",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (100)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (120 x2)</span>",
+            "ClosingTorpedo": "89",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (232 x2)"
+        }
+    },
+    {
+        "id": "1761",
+        "AirPower": " 42",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (132)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "79",
+            "ASWAttack": "Day Only (71)",
+            "NightBattle": "Double Attack (241 x2)"
+        }
+    },
+    {
+        "id": "1502",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (14)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "21",
+            "ASWAttack": "Day/Night (23)",
+            "NightBattle": "Single Attack (25)"
+        }
+    },
+    {
+        "id": "1515",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (27)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "42",
+            "ASWAttack": "Day/Night (24)",
+            "NightBattle": "Cut-in: Mixed (76 x2)"
+        }
+    },
+    {
+        "id": "1552",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (40)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "75",
+            "ASWAttack": "Day/Night (38)",
+            "NightBattle": "Cut-in: Mixed (136 x2)"
+        }
+    },
+    {
+        "id": "1504",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (15)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "31",
+            "ASWAttack": "Day/Night (24)",
+            "NightBattle": "Cut-in: Mixed (46 x2)"
+        }
+    },
+    {
+        "id": "1517",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (27)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "55",
+            "ASWAttack": "Day/Night (26)",
+            "NightBattle": "Cut-in: Mixed (93 x2)"
+        }
+    },
+    {
+        "id": "1739",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (73)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "96",
+            "ASWAttack": "Day/Night (43+)",
+            "NightBattle": "Double Attack (190 x2)"
+        }
+    },
+    {
+        "id": "1740",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (76)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "100",
+            "ASWAttack": "Day/Night (43+)",
+            "NightBattle": "Double Attack (199 x2)"
+        }
+    },
+    {
+        "id": "1741",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (86)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "104",
+            "ASWAttack": "Day/Night (43+)",
+            "NightBattle": "Double Attack (216 x2)"
+        }
+    },
+    {
+        "id": "1501",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (11)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "20",
+            "ASWAttack": "Day/Night (23)",
+            "NightBattle": "Single Attack (21)"
+        }
+    },
+    {
+        "id": "1514",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (21)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "42",
+            "ASWAttack": "Day/Night (24)",
+            "NightBattle": "Cut-in: Mixed (68 x2)"
+        }
+    },
+    {
+        "id": "1564",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (37)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "Day/Night (72)",
+            "NightBattle": "Single Attack (92)"
+        }
+    },
+    {
+        "id": "1503",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (13)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "23",
+            "ASWAttack": "Day/Night (23)",
+            "NightBattle": "Cut-in: Mixed (33 x2)"
+        }
+    },
+    {
+        "id": "1516",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (22)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "47",
+            "ASWAttack": "Day/Night (25)",
+            "NightBattle": "Cut-in: Mixed (76 x2)"
+        }
+    },
+    {
+        "id": "1553",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (37)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "75",
+            "ASWAttack": "Day/Night (38)",
+            "NightBattle": "Cut-in: Mixed (132 x2)"
+        }
+    },
+    {
+        "id": "1541",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (102)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (122 x2) / Cut-in: Secondary Gun (112)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Secondary Gun (169)"
+        }
+    },
+    {
+        "id": "1542",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (122)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Secondary Gun (204)"
+        }
+    },
+    {
+        "id": "1543",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (130)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (156 x2)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (150 x2)"
+        }
+    },
+    {
+        "id": "1511",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (97)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Cut-in: Secondary Gun (106)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (110 x2)"
+        }
+    },
+    {
+        "id": "1524",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (137)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Secondary Gun (231)"
+        }
+    },
+    {
+        "id": "1529",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (135)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (162 x2)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (156 x2)"
+        }
+    },
+    {
+        "id": "1561",
+        "AirPower": " 94",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "143",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (122)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "115",
+            "ASWAttack": "Day/Night (42)",
+            "NightBattle": "Cut-in: Mixed (295 x2)"
+        }
+    },
+    {
+        "id": "1562",
+        "AirPower": " 107",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "159",
+            "OpeningTorpedo": "143",
+            "DayBattle": "Shelling (162)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "143",
+            "ASWAttack": "Day/Night (43)",
+            "NightBattle": "Double Attack (354 x2)"
+        }
+    },
+    {
+        "id": "1799",
+        "AirPower": " 183",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37,121,152",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (533)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "128",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (275)"
+        }
+    },
+    {
+        "id": "1800",
+        "AirPower": " 183",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37,121,152",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (533)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "128",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (275)"
+        }
+    },
+    {
+        "id": "1801",
+        "AirPower": " 183",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37,121,152",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (533)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "128",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (275)"
+        }
+    },
+    {
+        "id": "1802",
+        "AirPower": " 225",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37,133,190",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (667)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "148",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (364)"
+        }
+    },
+    {
+        "id": "1711",
+        "AirPower": " 137",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "95,150",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (377)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (196)"
+        }
+    },
+    {
+        "id": "1712",
+        "AirPower": " 255",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "118,187",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (461)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (252)"
+        }
+    },
+    {
+        "id": "1713",
+        "AirPower": " 266",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "128,203",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (491)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (272)"
+        }
+    },
+    {
+        "id": "1716",
+        "AirPower": " 67",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "228",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (251)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (225 x2)</span>",
+            "ClosingTorpedo": "148",
+            "ASWAttack": "Day/Night (26+)",
+            "NightBattle": "Double Attack (466 x2)"
+        }
+    },
+    {
+        "id": "1717",
+        "AirPower": " 75",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "252",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (261)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (226 x2)</span>",
+            "ClosingTorpedo": "178",
+            "ASWAttack": "Day/Night (26+)",
+            "NightBattle": "Double Attack (514 x2)"
+        }
+    },
+    {
+        "id": "1718",
+        "AirPower": " 83",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "274",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (271)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (226 x2)</span>",
+            "ClosingTorpedo": "208",
+            "ASWAttack": "Day/Night (26+)",
+            "NightBattle": "Double Attack (562 x2)"
+        }
+    },
+    {
+        "id": "1719",
+        "AirPower": " 72",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "241",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (271)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (226 x2)</span>",
+            "ClosingTorpedo": "138",
+            "ASWAttack": "Day/Night (26+)",
+            "NightBattle": "Double Attack (478 x2)"
+        }
+    },
+    {
+        "id": "1628",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (145)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "90",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (270 x2)"
+        }
+    },
+    {
+        "id": "1628",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (145)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "90",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (270 x2)"
+        }
+    },
+    {
+        "id": "1629",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (175)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "95",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (312 x2)"
+        }
+    },
+    {
+        "id": "1629",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (175)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "95",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (312 x2)"
+        }
+    },
+    {
+        "id": "1629",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (175)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "95",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (312 x2)"
+        }
+    },
+    {
+        "id": "1630",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (205)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "100",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (354 x2)"
+        }
+    },
+    {
+        "id": "1630",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (205)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "100",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (354 x2)"
+        }
+    },
+    {
+        "id": "1630",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (205)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "100",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (354 x2)"
+        }
+    },
+    {
+        "id": "1585",
+        "AirPower": " 96",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "101,172",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (275)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (133)"
+        }
+    },
+    {
+        "id": "1619",
+        "AirPower": " 117",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "128,203",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (287)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (136)"
+        }
+    },
+    {
+        "id": "1619",
+        "AirPower": " 117",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "128,203",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (287)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (136)"
+        }
+    },
+    {
+        "id": "1586",
+        "AirPower": " 106",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "104,183",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (365)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (193)"
+        }
+    },
+    {
+        "id": "1620",
+        "AirPower": " 129",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "133,217",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (377)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (196)"
+        }
+    },
+    {
+        "id": "1620",
+        "AirPower": " 129",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "133,217",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (377)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (196)"
+        }
+    },
+    {
+        "id": "1781",
+        "AirPower": " 154",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "133,217,160",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (409)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (217)"
+        }
+    },
+    {
+        "id": "1782",
+        "AirPower": " 154",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "133,217,160",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (436)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (235)"
+        }
+    },
+    {
+        "id": "1751",
+        "AirPower": " 109",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "107,180",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (305)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (153)"
+        }
+    },
+    {
+        "id": "1752",
+        "AirPower": " 115",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "111,195",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (380)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (203)"
+        }
+    },
+    {
+        "id": "1599",
+        "AirPower": " 111",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "110,188",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (305)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (153)"
+        }
+    },
+    {
+        "id": "1600",
+        "AirPower": " 111",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "110,188",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (380)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (203)"
+        }
+    },
+    {
+        "id": "1600",
+        "AirPower": " 111",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "110,188",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (380)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (203)"
+        }
+    },
+    {
+        "id": "1556",
+        "AirPower": " 98",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "84,126",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (179)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (17)",
+            "NightBattle": "Single Attack (76)"
+        }
+    },
+    {
+        "id": "1631",
+        "AirPower": " 206",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "133,275,230",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (247)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (35)",
+            "NightBattle": "Single Attack (114)"
+        }
+    },
+    {
+        "id": "1631",
+        "AirPower": " 206",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "133,275,230",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (247)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (35)",
+            "NightBattle": "Single Attack (114)"
+        }
+    },
+    {
+        "id": "1632",
+        "AirPower": " 206",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "173,275,230",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (262)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (41)",
+            "NightBattle": "Single Attack (119)"
+        }
+    },
+    {
+        "id": "1632",
+        "AirPower": " 206",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "173,275,230",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (262)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (41)",
+            "NightBattle": "Single Attack (119)"
+        }
+    },
+    {
+        "id": "1633",
+        "AirPower": " 216",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "173,275,275",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (274)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (47)",
+            "NightBattle": "Single Attack (127)"
+        }
+    },
+    {
+        "id": "1633",
+        "AirPower": " 216",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "173,275,275",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (274)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (47)",
+            "NightBattle": "Single Attack (127)"
+        }
+    },
+    {
+        "id": "1650",
+        "AirPower": " 34",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "63,63,51,51",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (215)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (38)",
+            "NightBattle": "Single Attack (50)"
+        }
+    },
+    {
+        "id": "1651",
+        "AirPower": " 48",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "89,69,56,56",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (239)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (41)",
+            "NightBattle": "Single Attack (60)"
+        }
+    },
+    {
+        "id": "1652",
+        "AirPower": " 68",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "103,103,63,63",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (265)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (44)",
+            "NightBattle": "Single Attack (70)"
+        }
+    },
+    {
+        "id": "1539",
+        "AirPower": " 38",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "71",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (110)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "Day Only (11)",
+            "NightBattle": "Single Attack (165)"
+        }
+    },
+    {
+        "id": "1540",
+        "AirPower": " 38",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "71",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (116)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "95",
+            "ASWAttack": "Day Only (11)",
+            "NightBattle": "Single Attack (201)"
+        }
+    },
+    {
+        "id": "1609",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "145",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (323)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (198 x2)"
+        }
+    },
+    {
+        "id": "1610",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "155",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (338)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (210 x2)"
+        }
+    },
+    {
+        "id": "1610",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "155",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (338)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (210 x2)"
+        }
+    },
+    {
+        "id": "1611",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "164",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (389)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (250 x2)"
+        }
+    },
+    {
+        "id": "1611",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "164",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (389)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (250 x2)"
+        }
+    },
+    {
+        "id": "1612",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "172",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (404)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (262 x2)"
+        }
+    },
+    {
+        "id": "1673",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "123",
+            "DayBattle": "Shelling (87)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "123",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (240 x2)"
+        }
+    },
+    {
+        "id": "1674",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "133",
+            "DayBattle": "Shelling (95)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "133",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (261 x2)"
+        }
+    },
+    {
+        "id": "1675",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "143",
+            "DayBattle": "Shelling (103)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "143",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (283 x2)"
+        }
+    },
+    {
+        "id": "1690",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "143",
+            "DayBattle": "Shelling (99)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "143",
+            "ASWAttack": "Day/Night (43+)",
+            "NightBattle": "Double Attack (278 x2)"
+        }
+    },
+    {
+        "id": "1691",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "153",
+            "DayBattle": "Shelling (119)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "153",
+            "ASWAttack": "Day/Night (43+)",
+            "NightBattle": "Double Attack (314 x2)"
+        }
+    },
+    {
+        "id": "1692",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "163",
+            "DayBattle": "Shelling (139)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "163",
+            "ASWAttack": "Day/Night (43+)",
+            "NightBattle": "Double Attack (350 x2)"
+        }
+    },
+    {
+        "id": "1544",
+        "AirPower": " 44",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "78",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (90)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "85",
+            "ASWAttack": "Day Only (11)",
+            "NightBattle": "Single Attack (165)"
+        }
+    },
+    {
+        "id": "1545",
+        "AirPower": " 48",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "125",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (110)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "101",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (201)"
+        }
+    },
+    {
+        "id": "1665",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (111)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (127 x2)"
+        }
+    },
+    {
+        "id": "1666",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (108)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (103)"
+        }
+    },
+    {
+        "id": "1667",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (113)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (129 x2)"
+        }
+    },
+    {
+        "id": "1557",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (232)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Secondary Gun (397)"
+        }
+    },
+    {
+        "id": "1790",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (271)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (226 x2)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Main Gun (532)"
+        }
+    },
+    {
+        "id": "1696",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (225)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (264 x2)"
+        }
+    },
+    {
+        "id": "1697",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (237)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Secondary Gun (406)"
+        }
+    },
+    {
+        "id": "1698",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (247)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Secondary Gun (423)"
+        }
+    },
+    {
+        "id": "1603",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (247)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (225 x2)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (290 x2)"
+        }
+    },
+    {
+        "id": "1604",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (257)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (225 x2)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (302 x2)"
+        }
+    },
+    {
+        "id": "1604",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (257)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (225 x2)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (302 x2)"
+        }
+    },
+    {
+        "id": "1793",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (314)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (229 x2)</span>",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Main Gun (618)"
+        }
+    },
+    {
+        "id": "1684",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (166)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (199 x2)</span>",
+            "ClosingTorpedo": "85",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (289 x2)"
+        }
+    },
+    {
+        "id": "1685",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (216)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (223 x2)</span>",
+            "ClosingTorpedo": "95",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (361 x2)"
+        }
+    },
+    {
+        "id": "1686",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (256)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (225 x2)</span>",
+            "ClosingTorpedo": "105",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (421 x2)"
+        }
+    },
+    {
+        "id": "1687",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (206)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (222 x2)</span>",
+            "ClosingTorpedo": "125",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (385 x2)"
+        }
+    },
+    {
+        "id": "1597",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "105",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Mixed (211 x2)"
+        }
+    },
+    {
+        "id": "1598",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (78)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "105",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Mixed (224 x2)"
+        }
+    },
+    {
+        "id": "1598",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (78)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "105",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Mixed (224 x2)"
+        }
+    },
+    {
+        "id": "1647",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (109)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "125",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Mixed (291 x2)"
+        }
+    },
+    {
+        "id": "1648",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (129)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "135",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Mixed (330 x2)"
+        }
+    },
+    {
+        "id": "1649",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "153",
+            "DayBattle": "Shelling (149)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "153",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (350 x2)"
+        }
+    },
+    {
+        "id": "1676",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (109)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "125",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Mixed (291 x2)"
+        }
+    },
+    {
+        "id": "1677",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (129)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "135",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Mixed (330 x2)"
+        }
+    },
+    {
+        "id": "1678",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "153",
+            "DayBattle": "Shelling (149)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "153",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (350 x2)"
+        }
+    },
+    {
+        "id": "1773",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (155)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "144",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (346 x2)"
+        }
+    },
+    {
+        "id": "1774",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (185)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "154",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (394 x2)"
+        }
+    },
+    {
+        "id": "1775",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (235)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "164",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (466 x2)"
+        }
+    },
+    {
+        "id": "1549",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "60",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "50",
+            "ASWAttack": "Day Only (11)",
+            "NightBattle": "Single Attack (108)"
+        }
+    },
+    {
+        "id": "1549",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "60",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "50",
+            "ASWAttack": "Day Only (11)",
+            "NightBattle": "Single Attack (108)"
+        }
+    },
+    {
+        "id": "1549",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "60",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "50",
+            "ASWAttack": "Day Only (11)",
+            "NightBattle": "Single Attack (108)"
+        }
+    },
+    {
+        "id": "1550",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "90",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "56",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (114)"
+        }
+    },
+    {
+        "id": "1550",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "90",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "56",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (114)"
+        }
+    },
+    {
+        "id": "1550",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "90",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "56",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (114)"
+        }
+    },
+    {
+        "id": "1551",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "90",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "56",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (114)"
+        }
+    },
+    {
+        "id": "1551",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "90",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "56",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (114)"
+        }
+    },
+    {
+        "id": "1551",
+        "AirPower": " 29",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "90",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (68)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "56",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (114)"
+        }
+    },
+    {
+        "id": "1722",
+        "AirPower": " 102",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37,37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (274)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day/Night (89+)",
+            "NightBattle": "Bombing (100)"
+        }
+    },
+    {
+        "id": "1723",
+        "AirPower": " 136",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37,37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (319)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day/Night (89+)",
+            "NightBattle": "Bombing (130)"
+        }
+    },
+    {
+        "id": "1724",
+        "AirPower": " 160",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37,37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (364)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day/Night (89+)",
+            "NightBattle": "Bombing (160)"
+        }
+    },
+    {
+        "id": "1783",
+        "AirPower": " 115",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "109,156",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (470)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "149",
+            "ASWAttack": "Day/Night (42+)",
+            "NightBattle": "Bombing (257)"
+        }
+    },
+    {
+        "id": "1784",
+        "AirPower": " 135",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "121,168",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (530)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "169",
+            "ASWAttack": "Day/Night (42+)",
+            "NightBattle": "Bombing (297)"
+        }
+    },
+    {
+        "id": "1785",
+        "AirPower": " 135",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "121,168",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (590)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "189",
+            "ASWAttack": "Day/Night (42+)",
+            "NightBattle": "Bombing (337)"
+        }
+    },
+    {
+        "id": "1786",
+        "AirPower": " 115",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "109,156",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing (521)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "159",
+            "ASWAttack": "Day/Night (42+)",
+            "NightBattle": "Bombing (291)"
+        }
+    },
+    {
+        "id": "1755",
+        "AirPower": " 61",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (346)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (71)",
+            "NightBattle": "Double Attack (409 x2)"
+        }
+    },
+    {
+        "id": "1756",
+        "AirPower": " 87",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (356)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (71)",
+            "NightBattle": "Double Attack (421 x2)"
+        }
+    },
+    {
+        "id": "1757",
+        "AirPower": " 107",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (376)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (71)",
+            "NightBattle": "Double Attack (445 x2)"
+        }
+    },
+    {
+        "id": "1758",
+        "AirPower": " 87",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (376)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "123",
+            "ASWAttack": "Day Only (41)",
+            "NightBattle": "Double Attack (586 x2)"
+        }
+    },
+    {
+        "id": "1536",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1536",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1536",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1537",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1537",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1537",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1538",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1538",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1538",
+        "AirPower": " 27",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "86",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (63)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "51",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (104)"
+        }
+    },
+    {
+        "id": "1745",
+        "AirPower": " 55",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (258)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (71)",
+            "NightBattle": "Double Attack (303 x2)"
+        }
+    },
+    {
+        "id": "1746",
+        "AirPower": " 64",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (298)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (71)",
+            "NightBattle": "Double Attack (351 x2)"
+        }
+    },
+    {
+        "id": "1747",
+        "AirPower": " 67",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (298)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (71)",
+            "NightBattle": "Double Attack (351 x2)"
+        }
+    },
+    {
+        "id": "1748",
+        "AirPower": " 64",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (278)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (71)",
+            "NightBattle": "Double Attack (327 x2)"
+        }
+    },
+    {
+        "id": "1573",
+        "AirPower": " 80",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "78,117,117",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (233)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (23)",
+            "NightBattle": "Single Attack (112)"
+        }
+    },
+    {
+        "id": "1613",
+        "AirPower": " 53",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "299",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (406)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (15)",
+            "NightBattle": "Double Attack (280 x2)"
+        }
+    },
+    {
+        "id": "1613",
+        "AirPower": " 53",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "299",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (406)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (15)",
+            "NightBattle": "Double Attack (280 x2)"
+        }
+    },
+    {
+        "id": "1613",
+        "AirPower": " 53",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "299",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (406)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (15)",
+            "NightBattle": "Double Attack (280 x2)"
+        }
+    },
+    {
+        "id": "1699",
+        "AirPower": " 54",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "124,124",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (391)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (23)",
+            "NightBattle": "Double Attack (235 x2)"
+        }
+    },
+    {
+        "id": "1700",
+        "AirPower": " 75",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "181,124",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (428)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (26)",
+            "NightBattle": "Double Attack (256 x2)"
+        }
+    },
+    {
+        "id": "1701",
+        "AirPower": " 96",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "181,181",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (455)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (29)",
+            "NightBattle": "Double Attack (271 x2)"
+        }
+    },
+    {
+        "id": "1702",
+        "AirPower": " 54",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "124,124",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (391)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (23)",
+            "NightBattle": "Double Attack (235 x2)"
+        }
+    },
+    {
+        "id": "1605",
+        "AirPower": " 94",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "129",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (337)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (208 x2)"
+        }
+    },
+    {
+        "id": "1606",
+        "AirPower": " 103",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "139",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (352)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (220 x2)"
+        }
+    },
+    {
+        "id": "1606",
+        "AirPower": " 103",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "139",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (352)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (220 x2)"
+        }
+    },
+    {
+        "id": "1607",
+        "AirPower": " 103",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "139",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (367)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (232 x2)"
+        }
+    },
+    {
+        "id": "1607",
+        "AirPower": " 103",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "139",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (367)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (232 x2)"
+        }
+    },
+    {
+        "id": "1608",
+        "AirPower": " 114",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "150",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (397)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (256 x2)"
+        }
+    },
+    {
+        "id": "1659",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (121)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (145 x2)</span>",
+            "ClosingTorpedo": "81",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (249 x2)"
+        }
+    },
+    {
+        "id": "1660",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (151)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (181 x2)</span>",
+            "ClosingTorpedo": "89",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (299 x2)"
+        }
+    },
+    {
+        "id": "1661",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (181)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (217 x2)</span>",
+            "ClosingTorpedo": "97",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (348 x2)"
+        }
+    },
+    {
+        "id": "1662",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "97",
+            "DayBattle": "Shelling (151)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (181 x2)</span>",
+            "ClosingTorpedo": "97",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (285 x2)"
+        }
+    },
+    {
+        "id": "1663",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "105",
+            "DayBattle": "Shelling (181)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (217 x2)</span>",
+            "ClosingTorpedo": "105",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (331 x2)"
+        }
+    },
+    {
+        "id": "1664",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "113",
+            "DayBattle": "Shelling (211)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (222 x2)</span>",
+            "ClosingTorpedo": "113",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (376 x2)"
+        }
+    },
+    {
+        "id": "1705",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (131)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (157 x2)</span>",
+            "ClosingTorpedo": "89",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (273 x2)"
+        }
+    },
+    {
+        "id": "1706",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (161)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (193 x2)</span>",
+            "ClosingTorpedo": "97",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (322 x2)"
+        }
+    },
+    {
+        "id": "1707",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (191)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (219 x2)</span>",
+            "ClosingTorpedo": "105",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (371 x2)"
+        }
+    },
+    {
+        "id": "1574",
+        "AirPower": " 159",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "81,194,194",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (323)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (32)",
+            "NightBattle": "Single Attack (172)"
+        }
+    },
+    {
+        "id": "1634",
+        "AirPower": " 150",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "167,129,222",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (349)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (33)",
+            "NightBattle": "Single Attack (163)"
+        }
+    },
+    {
+        "id": "1634",
+        "AirPower": " 150",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "167,129,222",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (349)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (33)",
+            "NightBattle": "Single Attack (163)"
+        }
+    },
+    {
+        "id": "1635",
+        "AirPower": " 160",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "167,129,265",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (376)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (39)",
+            "NightBattle": "Single Attack (181)"
+        }
+    },
+    {
+        "id": "1635",
+        "AirPower": " 160",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "167,129,265",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (376)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (39)",
+            "NightBattle": "Single Attack (181)"
+        }
+    },
+    {
+        "id": "1636",
+        "AirPower": " 207",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "167,265,265",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (401)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (47)",
+            "NightBattle": "Single Attack (212)"
+        }
+    },
+    {
+        "id": "1636",
+        "AirPower": " 207",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "167,265,265",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (401)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (47)",
+            "NightBattle": "Single Attack (212)"
+        }
+    },
+    {
+        "id": "1668",
+        "AirPower": " 59",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "89,63,63,47",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (368)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1669",
+        "AirPower": " 82",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "96,71,58,47",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (362)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1670",
+        "AirPower": " ??",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "??",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Unknown"
+        }
+    },
+    {
+        "id": "1671",
+        "AirPower": " 78",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "70,70",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (364)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Double Attack (223 x2)"
+        }
+    },
+    {
+        "id": "1672",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (191)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (223 x2)"
+        }
+    },
+    {
+        "id": "1601",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (70)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (84 x2)</span>",
+            "ClosingTorpedo": "93",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (183 x2)"
+        }
+    },
+    {
+        "id": "1602",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (80)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (96 x2)</span>",
+            "ClosingTorpedo": "103",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (207 x2)"
+        }
+    },
+    {
+        "id": "1602",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (80)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (96 x2)</span>",
+            "ClosingTorpedo": "103",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (207 x2)"
+        }
+    },
+    {
+        "id": "1641",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (73)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "108",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (205 x2)"
+        }
+    },
+    {
+        "id": "1642",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (83)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "111",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (220 x2)"
+        }
+    },
+    {
+        "id": "1643",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (88)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "114",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Double Attack (230 x2)"
+        }
+    },
+    {
+        "id": "1679",
+        "AirPower": " 120",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "78,78,64",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (338)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (150)"
+        }
+    },
+    {
+        "id": "1680",
+        "AirPower": " 146",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "112,85,68",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (377)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (170)"
+        }
+    },
+    {
+        "id": "1681",
+        "AirPower": " 174",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "121,121,73",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (418)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Bombing (190)"
+        }
+    },
+    {
+        "id": "1682",
+        "AirPower": " 130",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "103,78,64",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (347)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1683",
+        "AirPower": " 154",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "126,112,60",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (358)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "No Action"
+        }
+    },
+    {
+        "id": "1583",
+        "AirPower": " 110",
+        "Slots": " 5",
+        "extra": {
+            "OpeningAirstrike": "108,186",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (257)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (21)",
+            "NightBattle": "Single Attack (121)"
+        }
+    },
+    {
+        "id": "1584",
+        "AirPower": " 91",
+        "Slots": " 5",
+        "extra": {
+            "OpeningAirstrike": "132",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (358)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (188)"
+        }
+    },
+    {
+        "id": "1584",
+        "AirPower": " 91",
+        "Slots": " 5",
+        "extra": {
+            "OpeningAirstrike": "132",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (358)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (14)",
+            "NightBattle": "Single Attack (188)"
+        }
+    },
+    {
+        "id": "1736",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "161",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "161",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (183)"
+        }
+    },
+    {
+        "id": "1767",
+        "AirPower": " 72",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (146)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "94",
+            "ASWAttack": "Day Only (48)",
+            "NightBattle": "Double Attack (276 x2)"
+        }
+    },
+    {
+        "id": "1768",
+        "AirPower": " 76",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (166)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "104",
+            "ASWAttack": "Day Only (48)",
+            "NightBattle": "Double Attack (312 x2)"
+        }
+    },
+    {
+        "id": "1769",
+        "AirPower": " 81",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (188)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "114",
+            "ASWAttack": "Day Only (48)",
+            "NightBattle": "Double Attack (350 x2)"
+        }
+    },
+    {
+        "id": "1770",
+        "AirPower": " 98",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (206)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "114",
+            "ASWAttack": "Day Only (48)",
+            "NightBattle": "Double Attack (372 x2)"
+        }
+    },
+    {
+        "id": "1581",
+        "AirPower": " 76",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "113,91",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (223)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (20)",
+            "NightBattle": "Single Attack (98)"
+        }
+    },
+    {
+        "id": "1582",
+        "AirPower": " 109",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "123,160",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (353)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (21)",
+            "NightBattle": "Single Attack (185)"
+        }
+    },
+    {
+        "id": "1582",
+        "AirPower": " 109",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "123,160",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (353)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (21)",
+            "NightBattle": "Single Attack (185)"
+        }
+    },
+    {
+        "id": "1587",
+        "AirPower": " 76",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "113,91",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (208)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (20)",
+            "NightBattle": "Single Attack (88)"
+        }
+    },
+    {
+        "id": "1587",
+        "AirPower": " 76",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "113,91",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (208)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (20)",
+            "NightBattle": "Single Attack (88)"
+        }
+    },
+    {
+        "id": "1588",
+        "AirPower": " 109",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "118,160",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (308)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (21)",
+            "NightBattle": "Single Attack (155)"
+        }
+    },
+    {
+        "id": "1589",
+        "AirPower": " 72",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "101,91",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (178)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (20)",
+            "NightBattle": "Single Attack (68)"
+        }
+    },
+    {
+        "id": "1590",
+        "AirPower": " 105",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "115,160",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (308)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (21)",
+            "NightBattle": "Single Attack (155)"
+        }
+    },
+    {
+        "id": "1728",
+        "AirPower": " 48",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (208)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "90",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (374 x2)"
+        }
+    },
+    {
+        "id": "1729",
+        "AirPower": " 56",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (218)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "100",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (400 x2)"
+        }
+    },
+    {
+        "id": "1730",
+        "AirPower": " 64",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (228)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "110",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (426 x2)"
+        }
+    },
+    {
+        "id": "1731",
+        "AirPower": " 54",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (210)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "120",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Mixed (416 x2)"
+        }
+    },
+    {
+        "id": "1725",
+        "AirPower": " 54",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (331)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (48)",
+            "NightBattle": "Double Attack (193 x2)"
+        }
+    },
+    {
+        "id": "1726",
+        "AirPower": " 63",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (361)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (48)",
+            "NightBattle": "Double Attack (217 x2)"
+        }
+    },
+    {
+        "id": "1727",
+        "AirPower": " 72",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "37",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (391)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "Day Only (48)",
+            "NightBattle": "Double Attack (241 x2)"
+        }
+    },
+    {
+        "id": "1637",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (14)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "103",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Single Torpedo (107)"
+        }
+    },
+    {
+        "id": "1638",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (14)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "123",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Torpedo (190 x2)"
+        }
+    },
+    {
+        "id": "1639",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (20)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "123",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Torpedo (199 x2)"
+        }
+    },
+    {
+        "id": "1640",
+        "AirPower": " 0",
+        "Slots": " 2",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (23)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "143",
+            "ASWAttack": "Day/Night (13+)",
+            "NightBattle": "Cut-in: Torpedo (234 x2)"
+        }
+    },
+    {
+        "id": "1625",
+        "AirPower": " 22",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "70",
+            "OpeningTorpedo": "111",
+            "DayBattle": "Shelling (84)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (100 x2)</span>",
+            "ClosingTorpedo": "111",
+            "ASWAttack": "Day/Night (25+)",
+            "NightBattle": "Double Attack (222 x2)"
+        }
+    },
+    {
+        "id": "1625",
+        "AirPower": " 22",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "70",
+            "OpeningTorpedo": "111",
+            "DayBattle": "Shelling (84)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (100 x2)</span>",
+            "ClosingTorpedo": "111",
+            "ASWAttack": "Day/Night (25+)",
+            "NightBattle": "Double Attack (222 x2)"
+        }
+    },
+    {
+        "id": "1626",
+        "AirPower": " 72",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "129",
+            "OpeningTorpedo": "121",
+            "DayBattle": "Shelling (104)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (124 x2)</span>",
+            "ClosingTorpedo": "121",
+            "ASWAttack": "Day/Night (28+)",
+            "NightBattle": "Double Attack (258 x2)"
+        }
+    },
+    {
+        "id": "1626",
+        "AirPower": " 72",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "129",
+            "OpeningTorpedo": "121",
+            "DayBattle": "Shelling (104)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (124 x2)</span>",
+            "ClosingTorpedo": "121",
+            "ASWAttack": "Day/Night (28+)",
+            "NightBattle": "Double Attack (258 x2)"
+        }
+    },
+    {
+        "id": "1626",
+        "AirPower": " 72",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "129",
+            "OpeningTorpedo": "121",
+            "DayBattle": "Shelling (104)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (124 x2)</span>",
+            "ClosingTorpedo": "121",
+            "ASWAttack": "Day/Night (28+)",
+            "NightBattle": "Double Attack (258 x2)"
+        }
+    },
+    {
+        "id": "1627",
+        "AirPower": " 88",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "152",
+            "OpeningTorpedo": "121",
+            "DayBattle": "Shelling (124)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (148 x2)</span>",
+            "ClosingTorpedo": "121",
+            "ASWAttack": "Day/Night (28+)",
+            "NightBattle": "Double Attack (282 x2)"
+        }
+    },
+    {
+        "id": "1627",
+        "AirPower": " 88",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "152",
+            "OpeningTorpedo": "121",
+            "DayBattle": "Shelling (124)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (148 x2)</span>",
+            "ClosingTorpedo": "121",
+            "ASWAttack": "Day/Night (28+)",
+            "NightBattle": "Double Attack (282 x2)"
+        }
+    },
+    {
+        "id": "1627",
+        "AirPower": " 88",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "152",
+            "OpeningTorpedo": "121",
+            "DayBattle": "Shelling (124)",
+            "ArtillerySpotting": "<span title=\"Assuming Parallel Engagement, Line Ahead, and no damage penalty.\" style=\"cursor:help;border-bottom:1px dotted;\">Double Attack (148 x2)</span>",
+            "ClosingTorpedo": "121",
+            "ASWAttack": "Day/Night (28+)",
+            "NightBattle": "Double Attack (282 x2)"
+        }
+    },
+    {
+        "id": "1708",
+        "AirPower": " 79",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "76,81",
+            "OpeningTorpedo": "113",
+            "DayBattle": "Shelling (109)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "113",
+            "ASWAttack": "Day/Night (58+)",
+            "NightBattle": "Single Attack (212)"
+        }
+    },
+    {
+        "id": "1709",
+        "AirPower": " 111",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "98,104",
+            "OpeningTorpedo": "123",
+            "DayBattle": "Shelling (149)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "123",
+            "ASWAttack": "Day/Night (58+)",
+            "NightBattle": "Single Attack (262)"
+        }
+    },
+    {
+        "id": "1710",
+        "AirPower": " 137",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "115,122",
+            "OpeningTorpedo": "133",
+            "DayBattle": "Shelling (189)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "133",
+            "ASWAttack": "Day/Night (58+)",
+            "NightBattle": "Single Attack (312)"
+        }
+    },
+    {
+        "id": "1546",
+        "AirPower": " 35",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (123)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "85",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (237 x2)"
+        }
+    },
+    {
+        "id": "1547",
+        "AirPower": " 41",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "75",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (145)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "95",
+            "ASWAttack": "Day Only (11)",
+            "NightBattle": "Single Attack (230)"
+        }
+    },
+    {
+        "id": "1548",
+        "AirPower": " 47",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (205)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "105",
+            "ASWAttack": "No",
+            "NightBattle": "Double Attack (360 x2)"
+        }
+    },
+    {
+        "id": "1644",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "175",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (330 x2)"
+        }
+    },
+    {
+        "id": "1645",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "198",
+            "ASWAttack": "No",
+            "NightBattle": "Cut-in: Torpedo (394 x2)"
+        }
+    },
+    {
+        "id": "1646",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "221",
+            "ASWAttack": "No",
+            "NightBattle": "Single Torpedo (306)"
+        }
+    },
+    {
+        "id": "1693",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "168",
+            "DayBattle": "No Action",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "168",
+            "ASWAttack": "No",
+            "NightBattle": "Single Torpedo (213)"
+        }
+    },
+    {
+        "id": "1653",
+        "AirPower": " 34",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "63,63,51,51",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (377)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "93",
+            "ASWAttack": "Day Only (38)",
+            "NightBattle": "Single Attack (158)"
+        }
+    },
+    {
+        "id": "1654",
+        "AirPower": " 48",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "89,69,56,56",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (431)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "103",
+            "ASWAttack": "Day Only (41)",
+            "NightBattle": "Single Attack (188)"
+        }
+    },
+    {
+        "id": "1655",
+        "AirPower": " 68",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "103,103,63,63",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (532)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "123",
+            "ASWAttack": "Day Only (44)",
+            "NightBattle": "Single Attack (248)"
+        }
+    },
+    {
+        "id": "1656",
+        "AirPower": " 48",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "89,69,56,56",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (476)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "93",
+            "ASWAttack": "Day Only (41)",
+            "NightBattle": "Single Attack (218)"
+        }
+    },
+    {
+        "id": "1753",
+        "AirPower": " 40",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "89,89",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (460)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "113",
+            "ASWAttack": "Day Only (29)",
+            "NightBattle": "Double Attack (274 x2)"
+        }
+    },
+    {
+        "id": "1754",
+        "AirPower": " 48",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "103,103",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Bombing, displayed as Shelling (520)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "133",
+            "ASWAttack": "Day Only (29)",
+            "NightBattle": "Double Attack (322 x2)"
+        }
+    },
+    {
+        "id": "1183",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (140)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (135)"
+        }
+    },
+    {
+        "id": "1584",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (205)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (200)"
+        }
+    },
+    {
+        "id": "1590",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (155)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (150)"
+        }
+    },
+    {
+        "id": "1585",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (205)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (200)"
+        }
+    },
+    {
+        "id": "1591",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (155)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (150)"
+        }
+    },
+    {
+        "id": "1586",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (285)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (280)"
+        }
+    },
+    {
+        "id": "1592",
+        "AirPower": " 0",
+        "Slots": " 4",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (185)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "No",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (180)"
+        }
+    },
+    {
+        "id": "1583",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (165)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (220)"
+        }
+    },
+    {
+        "id": "1589",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (103)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (158)"
+        }
+    },
+    {
+        "id": "1581",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (80)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "Day/Night (32)",
+            "NightBattle": "Single Attack (135)"
+        }
+    },
+    {
+        "id": "1587",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (65)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "Day/Night (31)",
+            "NightBattle": "Single Attack (120)"
+        }
+    },
+    {
+        "id": "1182",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (125)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (180)"
+        }
+    },
+    {
+        "id": "1582",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (155)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (210)"
+        }
+    },
+    {
+        "id": "1588",
+        "AirPower": " 0",
+        "Slots": " 3",
+        "extra": {
+            "OpeningAirstrike": "No",
+            "OpeningTorpedo": "No",
+            "DayBattle": "Shelling (93)",
+            "ArtillerySpotting": "No",
+            "ClosingTorpedo": "65",
+            "ASWAttack": "No",
+            "NightBattle": "Single Attack (148)"
+        }
+    }
+]
