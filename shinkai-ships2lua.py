@@ -161,7 +161,7 @@ for enemy_title in enemy_titles:
                     '装备': []
                 })
                 for att in attr_value:
-                    equips['搭载'].append(att['size'])
+                    equips['搭载'].append(att['size'] if att['size'] else 0)
                     equip_name = att['equipment']
                     equip_id = -1
                     if equip_name and equip_name not in SHINKAI_ITEMS:
