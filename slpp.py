@@ -77,7 +77,7 @@ class SLPP(object):
             s += "%s{%s" % (tab * (self.depth - 2), newline)
             if tp is dict:
                 contents = []
-                for k, v in obj.iteritems():
+                for k, v in obj.items():
                     if type(k) is int:
                         contents.append(self.__encode(v))
                     else:

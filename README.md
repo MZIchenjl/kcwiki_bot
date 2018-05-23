@@ -4,7 +4,9 @@
 
 更新频率为每日一次。
 
-明石工厂数据：<https://kcwiki-bot.mzi.moe/akashi-list.json>
+明石工厂数据(json)：<https://kcwiki-bot.mzi.moe/akashi-list.json>
+
+明石工厂数据(lua)：<https://kcwiki-bot.mzi.moe/akashi-list.lua>
 
 舰娘数据：<https://kcwiki-bot.mzi.moe/luatable-ships.lua>
 

@@ -10,17 +10,20 @@ import os
 import re
 import time
 
+from collections import OrderedDict
+
 import aiohttp
 import lxml
 from bs4 import BeautifulSoup, element
-
 
 class AkashiCrawler:
 
     SITEROOT = 'http://akashi-list.me'
     OUTPUT = 'output/akashi-list.json'
+    OUTPUT_LUA = 'output/akashi-list.lua'
     CACHE_DIR = '.cache/'
     ID_PATTERN = re.compile(r'[0-9]+')
+    TAB = '    '
 
     def __init__(self, http_proxy=None, cache=True, sannma=False):
         self.http_proxy = http_proxy
@@ -28,6 +31,7 @@ class AkashiCrawler:
         self.sannma = sannma
         self.tot_items = 0
         self.ok_items = 0
+        self.weapon_list = {}
         self.session = aiohttp.ClientSession()
         if self.cache and not os.path.isdir(self.CACHE_DIR):
             os.mkdir(self.CACHE_DIR)
@@ -206,9 +210,7 @@ class AkashiCrawler:
                             cache = json.load(fcache)
                             if cache['last_modified'] == last_modified:
                                 self.ok_items += 1
-                                print(
-                                    '({} / {}) ok!'
-                                    .format(self.ok_items, self.tot_items))
+                                print('({} / {}) ok!'.format(self.ok_items, self.tot_items))
                                 return cache['detail']
                         except json.JSONDecodeError:
                             pass
@@ -528,6 +530,49 @@ class AkashiCrawler:
         self.ok_items += 1
         print('({} / {}) ok!'.format(self.ok_items, self.tot_items))
         return detail
+    
+    def __gen_luatable(self, data, layer, indent=False):
+        ret = ''
+        if type(data) is int or type(data) is str:
+            if indent:
+                ret = (self.TAB * layer) + '{}'.format(json.dumps(data, ensure_ascii=False))
+            else:
+                ret = '{}'.format(json.dumps(data, ensure_ascii=False))
+        elif type(data) is list:
+            idx = 0
+            if indent:
+                ret = (self.TAB * (layer - 1)) + '{\n'
+            else:
+                ret = '{\n'
+            for item in data:
+                if not idx:
+                    ret += self.__gen_luatable(item, layer + 1, indent=True)
+                else:
+                    ret += ',\n' + self.__gen_luatable(item, layer + 1, indent=True)
+                idx += 1
+            ret += '\n' + (self.TAB * (layer - 1)) + '}'
+        elif type(data) is dict or type(data) is OrderedDict:
+            if indent:
+                ret = (self.TAB * (layer - 1)) + '{\n'
+            else:
+                ret = '{\n'
+            idx = 0
+            for k, v in data.items():
+                if not idx:
+                    ret += (self.TAB * layer) + '["{}"] = '.format(k) + self.__gen_luatable(v, layer + 1)
+                else:
+                    ret +=  ',\n' + (self.TAB * layer) + '["{}"] = '.format(k) + self.__gen_luatable(v, layer + 1)
+                idx += 1
+            ret += '\n' + (self.TAB * (layer - 1)) + '}'
+        return ret
+
+    def gen_luatable(self):
+        lua_table = 'local k = {}\n\n'
+        lua_table += 'k.EquipUpdateTb = '
+        lua_table += self.__gen_luatable(self.weapon_list, 1)
+        lua_table += '\n\nreturn k\n'
+        return lua_table
+            
 
     async def start(self):
         '''
@@ -556,17 +601,24 @@ class AkashiCrawler:
         tasks = []
         for weapon_id in id_list:
             tasks.append(asyncio.ensure_future(self.get_detail(weapon_id)))
-        weapon_list = {}
+        self.weapon_list = {}
         dones, pendings = await asyncio.wait(tasks)
         for task in dones:
             detail = task.result()
             wp_id = int(detail['id'])
-            weapon_list[wp_id] = detail
+            self.weapon_list[wp_id] = detail
         print('{} done, {} pendings.'.format(len(dones), len(pendings)))
-        akashi_json['items'] = weapon_list
+        akashi_json['items'] = self.weapon_list
         with open(self.OUTPUT, 'w', encoding='utf_8') as fjson:
             json.dump(akashi_json, fjson, ensure_ascii=False,
                       indent=2, sort_keys=True)
+        weapon_list = OrderedDict()
+        for item_id, item_info in self.weapon_list.items():
+            weapon_list[item_id] = item_info
+        self.weapon_list = weapon_list
+        lua_table = self.gen_luatable()
+        with open(self.OUTPUT_LUA, 'w', encoding='utf-8') as flua:
+            flua.write(lua_table)
 
 
 async def main():
