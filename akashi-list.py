@@ -613,7 +613,7 @@ class AkashiCrawler:
             json.dump(akashi_json, fjson, ensure_ascii=False,
                       indent=2, sort_keys=True)
         weapon_list = OrderedDict()
-        for item_id, item_info in self.weapon_list.items():
+        for item_id, item_info in sorted(self.weapon_list.items()):
             weapon_list[item_id] = item_info
         self.weapon_list = weapon_list
         lua_table = self.gen_luatable()
