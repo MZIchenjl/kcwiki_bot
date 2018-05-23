@@ -50,8 +50,7 @@ STATUS = {
     '_hp': '耐久', '_torpedo': '雷装', '_speed': '速力',
     '_firepower': '火力', '_asw': '对潜', '_aa': '对空',
     '_luck': '运', '_evasion': '回避', '_los': '索敌',
-    '_range': '射程', '_torpedo_accuracy': '雷击命中',
-    '_armor': '装甲'
+    '_range': '射程', '_armor': '装甲'
 }
 
 ATTR_WEIGHT = {
@@ -190,8 +189,14 @@ for enemy_title in enemy_titles:
                 SHINKAI_DATA[api_id]['属性']['火力'] = [0, extra_data['DayBattle']]
         if not len(SHINKAI_DATA[api_id]['装备']):
             del SHINKAI_DATA[api_id]['装备']
-        if not len(SHINKAI_DATA[api_id]['属性']):
-            del SHINKAI_DATA[api_id]['属性']
+        for attr in STATUS.values():
+            if attr not in SHINKAI_DATA[api_id]['属性']:
+                if attr == '速力':
+                    SHINKAI_DATA[api_id]['属性'][attr] = SPEED[-1]
+                elif attr == '射程':
+                    SHINKAI_DATA[api_id]['属性'][attr] = RANGE[-1]
+                else:
+                    SHINKAI_DATA[api_id]['属性'][attr] = 0
         SHINKAI_DATA[api_id] = sorted(
             SHINKAI_DATA[api_id].items(), key=lambda x: attr_key(x[0]))
 
