@@ -64,10 +64,16 @@ ATTR_WEIGHT = {
 
 FIRE_PATTERN = re.compile(r'[0-9]+')
 
-def load_extra(filename):
+def load_extra():
     ret = {}
-    with open(filename, 'r', encoding='utf-8') as fp:
+    with open('db/enemy_extra.json', 'r', encoding='utf-8') as fp:
         ret = json.load(fp)
+    with open('db/wikia_extra.json', 'r', encoding='utf-8') as fp:
+        fjson = json.load(fp)
+    for _id, value in fjson.items():
+        if _id not in ret:
+            ret[_id] = {}
+        ret[_id].update(value)
     return ret
 
 def load_items(filename):
@@ -109,7 +115,7 @@ SHINKAI_DATA = {}
 SHINKAI_ITEMS = load_items('db/shinkai-items.json')
 
 EXTRA_DATA = {}
-EXTRA_DATA = load_extra('db/enemy_extra.json')
+EXTRA_DATA = load_extra()
 
 for enemy_title in enemy_titles:
     raw_txt = session.get(WIKIA_URL.format(enemy_title)).text

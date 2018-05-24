@@ -1,8 +1,8 @@
 all: fetch akashi lua
 
-FETCH ?= wget
-RUN ?= bash
-PYTHON3 ?= python3
+FETCH = wget
+RUN = bash
+PYTHON3 = python3
 
 fetch:
 	@echo fetching new dbs...
@@ -19,6 +19,8 @@ shinkai_items2lua:
 	@$(PYTHON3) shinkai-items2lua.py
 
 shinkai_ships2lua:
+	@echo Wikia Crawler...
+	@$(PYTHON3) wikia-crawler.py
 	@$(PYTHON3) shinkai-ships2lua.py
 
 akashi:
