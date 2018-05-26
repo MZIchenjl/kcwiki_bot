@@ -32,6 +32,7 @@ RANK_UPGARDABLE = [
 ITEMS = {}
 SHIPS = {}
 SHIP_TYPES = {}
+SHIP_TYPES_KAI = {}
 SHIP_NAMESUFFIX = {}
 ITEM_TYPES = {}
 REMARKS = {}
@@ -126,8 +127,7 @@ def get_equipable(item_type):
     equipable_list = list()
     if 'equipable_on_type' in _type:
         for ship_typeid in _type['equipable_on_type']:
-            ship_codegame = '"{}"'.format(
-                SHIP_TYPES[ship_typeid]['name']['zh_cn'])
+            ship_codegame = '"{}"'.format(SHIP_TYPES_KAI[ship_typeid])
             if ship_codegame not in equipable_list:
                 equipable_list.append(ship_codegame)
     if 'equipable_extra_ship' in _type:
@@ -302,20 +302,30 @@ KCDATA = fetch_data(KCDATA_URL)
 # Convert nedb to json
 utils.nedb2json(DB_FOLDER + 'ships.nedb', DB_FOLDER + 'ships.json')
 utils.nedb2json(DB_FOLDER + 'ship_types.nedb', DB_FOLDER + 'ship_types.json')
-utils.nedb2json(DB_FOLDER + 'ship_namesuffix.nedb',
-                DB_FOLDER + 'ship_namesuffix.json')
+utils.nedb2json(DB_FOLDER + 'ship_type_collections.nedb', DB_FOLDER + 'ship_type_collections.json')
+utils.nedb2json(DB_FOLDER + 'ship_namesuffix.nedb', DB_FOLDER + 'ship_namesuffix.json')
 utils.nedb2json(DB_FOLDER + 'items.nedb', DB_FOLDER + 'items.json')
 utils.nedb2json(DB_FOLDER + 'item_types.nedb', DB_FOLDER + 'item_types.json')
 
 # Load dictionary from json file
 ITEMS = utils.jsonFile2dic(DB_FOLDER + 'items.json', masterKey='id')
 SHIPS = utils.jsonFile2dic(DB_FOLDER + 'ships.json', masterKey='id')
-SHIP_NAMESUFFIX = utils.jsonFile2dic(
-    DB_FOLDER + 'ship_namesuffix.json', masterKey='id')
+SHIP_NAMESUFFIX = utils.jsonFile2dic(DB_FOLDER + 'ship_namesuffix.json', masterKey='id')
 SHIP_TYPES = utils.jsonFile2dic(DB_FOLDER + 'ship_types.json', masterKey='id')
 ITEM_TYPES = utils.jsonFile2dic(DB_FOLDER + 'item_types.json', masterKey='id')
 REMARKS = load_remark(DB_FOLDER + 'remarks.json')
 AKASHI_DATA = load_akashi(OUTPUT_FOLDER + 'akashi-list.json')
+
+ship_type_collections = utils.jsonFile2dic(DB_FOLDER + 'ship_type_collections.json', masterKey='id')
+
+for sc in ship_type_collections.values():
+    types = sc['types']
+    for _type in types:
+        if type(_type) is list:
+            for _t in _type:
+                SHIP_TYPES_KAI[_t] = SHIP_TYPES[_type[0]]['name']['zh_cn']
+        else:
+            SHIP_TYPES_KAI[_type] = SHIP_TYPES[_type]['name']['zh_cn']
 
 LUATABLE_DICT = dict()
 LUATABLE_STR = '''local d = {}

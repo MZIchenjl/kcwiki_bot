@@ -37,6 +37,7 @@ clean:
 	$(RM) db/ship_namesuffix.json
 	$(RM) db/ship_series.json
 	$(RM) db/ship_types.json
+	$(RM) db/ship_type_collections.json
 	$(RM) db/ships.json
 	$(RM) db/shinkai-items.json
 	$(RM) output/*
@@ -49,6 +50,7 @@ rmdbs:
 	$(RM) db/ship_classes.nedb
 	$(RM) db/ship_namesuffix.nedb
 	$(RM) db/ship_series.nedb
+	$(RM) db/ship_type_collections.nedb
 	$(RM) db/ship_types.nedb
 	$(RM) db/ships.nedb
 	@echo db files cleaned!
