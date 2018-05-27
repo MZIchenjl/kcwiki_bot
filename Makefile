@@ -41,6 +41,7 @@ clean:
 	$(RM) db/ships.json
 	$(RM) db/shinkai-items.json
 	$(RM) output/*
+	$(RM) .cache/*
 	@echo db files and output files cleaned!
 
 rmdbs:

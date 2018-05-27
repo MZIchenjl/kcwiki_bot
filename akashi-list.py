@@ -16,12 +16,21 @@ import aiohttp
 import lxml
 from bs4 import BeautifulSoup, element
 
+import utils 
+
 class AkashiCrawler:
 
     SITEROOT = 'http://akashi-list.me'
     OUTPUT = 'output/akashi-list.json'
     OUTPUT_LUA = 'output/akashi-list.lua'
     CACHE_DIR = '.cache/'
+    SHIP_TYPES = [
+        '駆逐艦', '軽巡洋艦', '重巡洋艦', '戦艦',
+        '軽空母', '正規空母', '水上機母艦', '航空戦艦',
+        '航空巡洋艦', '重雷装巡洋艦', '練習巡洋艦', '揚陸艦',
+        '工作艦', '潜水艦', '潜水空母',
+        '補給艦', '海防艦', '基地航空隊'
+    ]
     ID_PATTERN = re.compile(r'[0-9]+')
     TAB = '    '
 
@@ -32,6 +41,7 @@ class AkashiCrawler:
         self.tot_items = 0
         self.ok_items = 0
         self.weapon_list = {}
+        self.items = {}
         self.session = aiohttp.ClientSession()
         if self.cache and not os.path.isdir(self.CACHE_DIR):
             os.mkdir(self.CACHE_DIR)
@@ -231,8 +241,11 @@ class AkashiCrawler:
         if item_no:
             detail['no'] = item_no
         if item_title:
-            detail['item_name'] = item_title
-
+            detail['item_name'] = {
+                'zh': self.items[detail['id']]['name']['zh_cn'],
+                'ja': item_title
+            }
+        
         for name_child in name_selector:
             if isinstance(name_child, element.NavigableString):
                 item_type = self.get_text(name_child)
@@ -324,14 +337,6 @@ class AkashiCrawler:
         if stat_lines:
             detail['item_stat'] = stat
 
-        ship_types = [
-            '駆逐艦', '軽巡洋艦', '重巡洋艦', '戦艦',
-            '軽空母', '正規空母', '水上機母艦', '航空戦艦',
-            '航空巡洋艦', '重雷装巡洋艦', '練習巡洋艦', '揚陸艦',
-            '工作艦', '潜水艦', '潜水空母',
-            '補給艦', '海防艦', '基地航空隊'
-        ]
-
         # 处理equip 装备情况
         equip = dict()
         extra = list()
@@ -343,7 +348,7 @@ class AkashiCrawler:
                 ship_type = self.get_text(equip_row)
                 if not ship_type:
                     continue
-                if ship_type in ship_types:
+                if ship_type in self.SHIP_TYPES:
                     if is_ok:
                         equip[ship_type] = 1
                     else:
@@ -366,7 +371,7 @@ class AkashiCrawler:
                 ship_type = self.get_text(extra_equip_row)
                 if not ship_type:
                     continue
-                if ship_type in ship_types:
+                if ship_type in self.SHIP_TYPES:
                     if is_ok:
                         extra_equip[ship_type] = 1
                     else:
@@ -575,10 +580,8 @@ class AkashiCrawler:
             
 
     async def start(self):
-        '''
-        生成akashi-list文件
-        '''
-
+        utils.nedb2json('db/items.nedb', 'db/items.json')
+        self.items = utils.jsonFile2dic('db/items.json', masterKey='id')
         akashi_json = {
             'week': ['日', '月', '火', '水', '木', '金', '土'],
             # 从11星开始
