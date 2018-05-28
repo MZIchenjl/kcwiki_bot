@@ -64,6 +64,8 @@ ATTR_WEIGHT = {
 
 FIRE_PATTERN = re.compile(r'[0-9]+')
 
+SKIPS = [ 'New Year 2017' ]
+
 def load_extra():
     ret = {}
     with open('db/enemy_extra.json', 'r', encoding='utf-8') as fp:
@@ -126,6 +128,8 @@ for enemy_title in enemy_titles:
         if type(enemy_info) is not dict:
             continue
         if '_api_id' not in enemy_info:
+            continue
+        if '_suffix' in enemy_info and enemy_info['_suffix'] in SKIPS:
             continue
         api_id = enemy_info['_api_id']
         if api_id < 1000:
