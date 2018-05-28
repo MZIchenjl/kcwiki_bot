@@ -5604,7 +5604,8 @@ k.EquipUpdateTb = {
                 "朝風改(Lv50)",
                 "松風改(Lv50)",
                 "旗風改(Lv50)",
-                "潮改二(Lv60)"
+                "潮改二(Lv60)",
+                "浦風丁改(Lv69)"
         },
         ["JA_Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%BB%CD%BC%B0%C7%FA%CD%EB%C5%EA%BC%CD%B5%A1",
         ["EN_Wiki"] = "http://kancolle.wikia.com/wiki/Type_94_Depth_Charge_Projector"
@@ -5977,8 +5978,10 @@ k.EquipUpdateTb = {
                 "日振改(Lv37)",
                 "山風改(Lv45)",
                 "対馬改(Lv47)",
+                "対馬改(Lv48)",
                 "松風改(Lv50)",
-                "旗風改(Lv50)"
+                "旗風改(Lv50)",
+                "浦風丁改(Lv69)"
         },
         ["JA_Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%BB%B0%BC%B0%BF%E5%C3%E6%C4%B0%B2%BB%B5%A1",
         ["EN_Wiki"] = "http://kancolle.wikia.com/wiki/Type_93_Passive_Sonar"
@@ -22276,7 +22279,9 @@ k.EquipUpdateTb = {
                 "日振改(Lv37)",
                 "大東改(Lv37)",
                 "占守改(Lv40)",
-                "対馬改(Lv47)"
+                "対馬改(Lv47)",
+                "対馬改(Lv48)",
+                "浦風丁改(Lv69)"
         },
         ["JA_Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%B8%DE%BC%B0%C7%FA%CD%EB",
         ["EN_Wiki"] = "http://kancolle.wikia.com/wiki/Type_95_Depth_Charge"
@@ -22411,6 +22416,7 @@ k.EquipUpdateTb = {
                 "大東改(Lv37)",
                 "国後改(Lv40)",
                 "対馬改(Lv47)",
+                "対馬改(Lv48)",
                 "由良改二(Lv77)"
         },
         ["JA_Wiki"] = "http://wikiwiki.jp/kancolle/?12.7cm%C3%B1%C1%F5%B9%E2%B3%D1%CB%A4%28%B8%E5%B4%FC%B7%BF%29",
