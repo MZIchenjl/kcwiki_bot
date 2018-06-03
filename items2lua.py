@@ -32,12 +32,14 @@ RANK_UPGARDABLE = [
 ITEMS = {}
 SHIPS = {}
 SHIP_TYPES = {}
+SHIP_CLASSES = {}
 SHIP_TYPES_KAI = {}
 SHIP_NAMESUFFIX = {}
 ITEM_TYPES = {}
 REMARKS = {}
 AKASHI_DATA = {}
 KCDATA = {}
+BONUS = {}
 
 
 def load_remark(path):
@@ -117,6 +119,42 @@ def get_shipname(ship_name):
         name_suffix = ship_name['suffix']
         ret_name += SHIP_NAMESUFFIX[name_suffix]['zh_cn']
     return '"{}"'.format(ret_name)
+
+
+def get_bonus(bonus):
+    conbined = []
+    ships = []
+    stats = {}
+    if 'conbined' in bonus:
+        for s_id in bonus['conbined']:
+            s_name = get_itemname(ITEMS[s_id], 'zh_cn')
+            if s_name not in conbined:
+                conbined.append(s_name)
+    for stat_key, stat_val in bonus['bonus'].items():
+        stats[STAT_MAP[stat_key]] = stat_val
+    for s_id in bonus['ships']['id']:
+        s_name = get_shipname(SHIPS[s_id]['name']).strip('\\\"')
+        if s_name not in ships:
+            ships.append(s_name)
+    for s_id in bonus['ships']['class']:
+        s_name = SHIP_CLASSES[s_id]['name']['zh_cn'] + '级'
+        if s_name not in ships:
+            ships.append(s_name)
+    for s_id in bonus['ships']['type']:
+        s_name = SHIP_TYPES_KAI[s_id]
+        if s_name not in ships:
+            ships.append(s_name)
+    if conbined:
+        return utils.luatable({
+            '装备组合': conbined,
+            '增益舰娘': ships,
+            '增益属性': stats
+        }, layer=4, tab='    ')
+    else:
+        return utils.luatable({
+            '增益舰娘': ships,
+            '增益属性': stats
+        }, layer=4, tab='    ')
 
 
 def get_equipable(item_type):
@@ -239,6 +277,8 @@ def generate(wctf_item, kcdata_item, luatable_dict):
     from 'Who calls the fleet'.
     '''
     item_id = wctf_item['id']
+    _item_id = str(item_id)
+    print(_item_id)
     item_type = wctf_item['type']
     lua_entry = ''
     lua_entry += '    ["{}"] = {{\n'.format(str(item_id).zfill(3))
@@ -280,6 +320,12 @@ def generate(wctf_item, kcdata_item, luatable_dict):
     )
     lua_entry += '        ["装备适用"] = {{{}}},\n'.format(
         get_equipable(item_type))
+    if _item_id in BONUS:
+        bonus_text = []
+        for bonus in BONUS[_item_id]:
+            bonus_text.append(get_bonus(bonus))
+        lua_entry += '        ["额外增益"] = {{\n             {}\n        }},\n'.format(
+            ', '.join(bonus_text))
     lua_entry += '        ["备注"] = "{}",\n'.format(
         REMARKS[item_id] if item_id in REMARKS else '')
     if 'improvement' in wctf_item and wctf_item['improvement']:
@@ -302,21 +348,32 @@ KCDATA = fetch_data(KCDATA_URL)
 # Convert nedb to json
 utils.nedb2json(DB_FOLDER + 'ships.nedb', DB_FOLDER + 'ships.json')
 utils.nedb2json(DB_FOLDER + 'ship_types.nedb', DB_FOLDER + 'ship_types.json')
-utils.nedb2json(DB_FOLDER + 'ship_type_collections.nedb', DB_FOLDER + 'ship_type_collections.json')
-utils.nedb2json(DB_FOLDER + 'ship_namesuffix.nedb', DB_FOLDER + 'ship_namesuffix.json')
+utils.nedb2json(DB_FOLDER + 'ship_classes.nedb',
+                DB_FOLDER + 'ship_classes.json')
+utils.nedb2json(DB_FOLDER + 'ship_type_collections.nedb',
+                DB_FOLDER + 'ship_type_collections.json')
+utils.nedb2json(DB_FOLDER + 'ship_namesuffix.nedb',
+                DB_FOLDER + 'ship_namesuffix.json')
 utils.nedb2json(DB_FOLDER + 'items.nedb', DB_FOLDER + 'items.json')
 utils.nedb2json(DB_FOLDER + 'item_types.nedb', DB_FOLDER + 'item_types.json')
 
 # Load dictionary from json file
 ITEMS = utils.jsonFile2dic(DB_FOLDER + 'items.json', masterKey='id')
 SHIPS = utils.jsonFile2dic(DB_FOLDER + 'ships.json', masterKey='id')
-SHIP_NAMESUFFIX = utils.jsonFile2dic(DB_FOLDER + 'ship_namesuffix.json', masterKey='id')
+SHIP_NAMESUFFIX = utils.jsonFile2dic(
+    DB_FOLDER + 'ship_namesuffix.json', masterKey='id')
 SHIP_TYPES = utils.jsonFile2dic(DB_FOLDER + 'ship_types.json', masterKey='id')
+SHIP_CLASSES = utils.jsonFile2dic(
+    DB_FOLDER + 'ship_classes.json', masterKey='id')
 ITEM_TYPES = utils.jsonFile2dic(DB_FOLDER + 'item_types.json', masterKey='id')
 REMARKS = load_remark(DB_FOLDER + 'remarks.json')
 AKASHI_DATA = load_akashi(OUTPUT_FOLDER + 'akashi-list.json')
 
-ship_type_collections = utils.jsonFile2dic(DB_FOLDER + 'ship_type_collections.json', masterKey='id')
+with open(DB_FOLDER + 'bonus.json', 'r', encoding='utf-8') as fp:
+    BONUS = json.load(fp)
+
+ship_type_collections = utils.jsonFile2dic(
+    DB_FOLDER + 'ship_type_collections.json', masterKey='id')
 
 for sc in ship_type_collections.values():
     types = sc['types']

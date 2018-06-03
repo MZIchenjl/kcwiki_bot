@@ -1,6 +1,15 @@
 language: python
 python:
-  - '3.6'
+  - 3.6
+env:
+  - LUA="lua=5.3"
+before_install:
+  - sudo apt-get -qq update
+  - curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+  - sudo apt-get install -y nodejs
+  - pip install hererocks
+  - hererocks lua_install -r^ --$LUA
+  - export PATH=$PATH:$PWD/lua_install/bin
 install:
   - pip install -r requirements.txt
 branches:
@@ -20,8 +29,6 @@ before_deploy:
   - cp README.md output/README.md
   - cp CNAME output/CNAME
 deploy:
-  edge:
-    branch: v1.8.47
   provider: pages
   name: MZI
   email: macchenjl@foxmail.com

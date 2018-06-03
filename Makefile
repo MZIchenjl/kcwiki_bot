@@ -1,33 +1,45 @@
-all: fetch akashi lua
+all: fetch akashi lua check
 
-FETCH = wget
-RUN = bash
-PYTHON3 = python3
+RM = rm -f
 
 fetch:
-	@echo fetching new dbs...
-	@$(FETCH) -i wctf_dbs.txt -P db/
-	@echo new dbs fetched successfully!
+	@echo Fetching new dbs...
+	wget -i wctf_dbs.txt -P db/
+	@echo Who calls the fleet database fetched successfully!
 
 ships2lua:
-	@$(PYTHON3) ships2lua.py
+	python3 ships2lua.py
+	@echo luatable-ships.lua generated successfully!
 
 items2lua:
-	@$(PYTHON3) items2lua.py
+	node bonus-convert.js
+	python3 items2lua.py
+	@echo luatable-items.lua generated successfully!
 
 shinkai_items2lua:
-	@$(PYTHON3) shinkai-items2lua.py
+	python3 shinkai-items2lua.py
+	@echo shinkai-items.lua generated successfully!
 
 shinkai_ships2lua:
-	@echo Wikia Crawler...
-	@$(PYTHON3) wikia-crawler.py
-	@$(PYTHON3) shinkai-ships2lua.py
+	@echo Wikia Crawler working...
+	python3 wikia-crawler.py
+	python3 shinkai-ships2lua.py
+	@echo shinkai-ships.lua generated successfully!
 
 akashi:
-	@$(PYTHON3) akashi-list.py
+	python3 akashi-list.py
+	@echo akashi-list.json, akashi-list.lua generated successfully!
 
 lua: ships2lua items2lua shinkai_items2lua shinkai_ships2lua
-	@echo lua files generated successfully!
+	@echo All the lua files generated successfully!
+
+check:
+	lua output/akashi-list.lua
+	lua output/luatable-items.lua
+	lua output/luatable-ships.lua
+	lua output/shinkai-items.lua
+	lua output/shinkai-ships.lua
+	@echo All the lua files are valid!
 
 clean:
 	$(RM) db/entities.json
@@ -40,9 +52,12 @@ clean:
 	$(RM) db/ship_type_collections.json
 	$(RM) db/ships.json
 	$(RM) db/shinkai-items.json
+	$(RM) db/wikia_extra.json
+	$(RM) db/bonus.js
+	$(RM) db/bonus.json
 	$(RM) output/*
 	$(RM) .cache/*
-	@echo db files and output files cleaned!
+	@echo All the db files and output files cleaned!
 
 rmdbs:
 	$(RM) db/entities.nedb
@@ -54,4 +69,4 @@ rmdbs:
 	$(RM) db/ship_type_collections.nedb
 	$(RM) db/ship_types.nedb
 	$(RM) db/ships.nedb
-	@echo db files cleaned!
+	@echo All the db files cleaned!
