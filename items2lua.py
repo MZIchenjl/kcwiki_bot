@@ -278,7 +278,6 @@ def generate(wctf_item, kcdata_item, luatable_dict):
     '''
     item_id = wctf_item['id']
     _item_id = str(item_id)
-    print(_item_id)
     item_type = wctf_item['type']
     lua_entry = ''
     lua_entry += '    ["{}"] = {{\n'.format(str(item_id).zfill(3))
