@@ -45,7 +45,7 @@ d.equipDataTb = {
 				["六"] = {"〇"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?12.7cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/12.7cm_Twin_Gun_Mount"
 	},
@@ -90,7 +90,7 @@ d.equipDataTb = {
 				["六"] = {"〇"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?14cm%C3%B1%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/14cm_Single_Gun_Mount"
 	},
@@ -121,7 +121,7 @@ d.equipDataTb = {
 				["六"] = {"最上", "最上改", "大淀", "大淀改"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>新型炮熕兵装资材</font>x1，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15.5cm%BB%B0%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/15.5cm_Triple_Gun_Mount"
 	},
@@ -152,7 +152,7 @@ d.equipDataTb = {
 				["六"] = {"青叶", "青叶改", "衣笠", "衣笠改", "衣笠改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?20.3cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/20.3cm_Twin_Gun_Mount"
 	},
@@ -183,7 +183,7 @@ d.equipDataTb = {
 				["六"] = {"扶桑", "扶桑改", "扶桑改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?35.6cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/35.6cm_Twin_Gun_Mount"
 	},
@@ -214,7 +214,7 @@ d.equipDataTb = {
 				["六"] = {"长门", "长门改", "长门改二"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>新型炮熕兵装资材</font>x2，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?41cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/41cm_Twin_Gun_Mount"
 	},
@@ -245,7 +245,7 @@ d.equipDataTb = {
 				["六"] = {"大和"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>新型炮熕兵装资材</font>x2，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?46cm%BB%B0%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/46cm_Triple_Gun_Mount"
 	},
@@ -276,7 +276,7 @@ d.equipDataTb = {
 				["六"] = {"摩耶改二", "铃谷", "铃谷改", "铃谷改二", "铃谷航改二", "熊野", "熊野改", "熊野改二", "熊野航改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?12.7cm%CF%A2%C1%F5%B9%E2%B3%D1%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/12.7cm_Twin_High-angle_Gun_Mount"
 	},
@@ -307,7 +307,7 @@ d.equipDataTb = {
 				["六"] = {"金刚", "金刚改", "金刚改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15.2cm%C3%B1%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/15.2cm_Single_Gun_Mount"
 	},
@@ -338,7 +338,7 @@ d.equipDataTb = {
 				["六"] = {"大和", "大和改", "武藏改", "武藏", "武藏改二"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>新型炮熕兵装资材</font>x1，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15.5cm%BB%B0%CF%A2%C1%F5%C9%FB%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/15.5cm_Triple_Secondary_Gun_Mount"
 	},
@@ -369,7 +369,7 @@ d.equipDataTb = {
 				["六"] = {"吹雪", "吹雪改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?61cm%BB%B0%CF%A2%C1%F5%B5%FB%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/61cm_Triple_Torpedo_Mount"
 	},
@@ -400,7 +400,7 @@ d.equipDataTb = {
 				["六"] = {"〇"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?61cm%BB%CD%CF%A2%C1%F5%B5%FB%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/61cm_Quadruple_Torpedo_Mount"
 	},
@@ -424,7 +424,7 @@ d.equipDataTb = {
 					["雷装"] = 2
 				}
 			}
-			},
+		},
 		["备注"] = "",
 		["装备改修"] = {
 			["资源消费"] = {["燃料"] = 80, ["弹药"] = 120, ["钢材"] = 80, ["铝"] = 20},
@@ -442,7 +442,7 @@ d.equipDataTb = {
 				["六"] = {"北上", "北上改", "北上改二", "大井", "大井改", "大井改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?61cm%BB%CD%CF%A2%C1%F5%28%BB%C0%C1%C7%29%B5%FB%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/61cm_Quadruple_%28Oxygen%29_Torpedo_Mount"
 	},
@@ -515,7 +515,7 @@ d.equipDataTb = {
 				["六"] = {"凤翔", "凤翔改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%CF%BB%BC%B0%B4%CF%C0%EF",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_96_Fighter"
 	},
@@ -546,7 +546,7 @@ d.equipDataTb = {
 				["六"] = {"赤城", "赤城改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF21%B7%BF",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_21"
 	},
@@ -575,7 +575,7 @@ d.equipDataTb = {
 				["六"] = {"翔鹤", "翔鹤改", "翔鹤改二", "翔鹤改二甲"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF52%B7%BF",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_52"
 	},
@@ -648,7 +648,7 @@ d.equipDataTb = {
 				["六"] = {"千岁甲", "秋津洲改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%BF%E5%BE%E5%C4%E5%BB%A1%B5%A1",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Reconnaissance_Seaplane"
 	},
@@ -679,7 +679,7 @@ d.equipDataTb = {
 				["六"] = {"伊势改", "日向改"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>熟练搭乘员</font>x1"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BF%F0%B1%C0",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Zuiun"
 	},
@@ -710,7 +710,7 @@ d.equipDataTb = {
 				["六"] = {"时雨改二", "五十铃改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?13%B9%E6%C2%D0%B6%F5%C5%C5%C3%B5",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_13_Air_Radar"
 	},
@@ -741,7 +741,7 @@ d.equipDataTb = {
 				["六"] = {"日向", "夕云", "夕云改", "岛风", "岛风改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?22%B9%E6%C2%D0%BF%E5%BE%E5%C5%C5%C3%B5",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_22_Surface_Radar"
 	},
@@ -786,7 +786,7 @@ d.equipDataTb = {
 				["六"] = {"伊势", "日向"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?21%B9%E6%C2%D0%B6%F5%C5%C5%C3%B5",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_21_Air_Radar"
 	},
@@ -817,7 +817,7 @@ d.equipDataTb = {
 				["六"] = {"伊势", "伊势改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?32%B9%E6%C2%D0%BF%E5%BE%E5%C5%C5%C3%B5",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_32_Surface_Radar"
 	},
@@ -876,7 +876,7 @@ d.equipDataTb = {
 				["六"] = {"天津风", "天津风改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%AF%B2%BD%B7%BF%B4%CF%CB%DC%BC%B0%B4%CC",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Enhanced_Kanhon_Type_Boiler"
 	},
@@ -921,7 +921,7 @@ d.equipDataTb = {
 				["六"] = {"比睿", "比睿改", "比睿改二", "雾岛", "雾岛改", "雾岛改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%B0%EC%BC%B0%C5%B0%B9%C3%C3%C6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_91_Armor_Piercing_Shell"
 	},
@@ -980,7 +980,7 @@ d.equipDataTb = {
 				["六"] = {"五十铃改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?25mm%CF%A2%C1%F5%B5%A1%BD%C6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/25mm_Twin_Autocannon_Mount"
 	},
@@ -1009,7 +1009,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["装备改修2"] = {
 			["资源消费"] = {["燃料"] = 0, ["弹药"] = 30, ["钢材"] = 20, ["铝"] = 10},
 			["初期消费"] = {["开发"] = {1, 2},["改修"] = {1, 1}, ["装备数"] = 0},
@@ -1026,7 +1026,7 @@ d.equipDataTb = {
 				["六"] = {"村雨改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?25mm%BB%B0%CF%A2%C1%F5%B5%A1%BD%C6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/25mm_Triple_Autocannon_Mount"
 	},
@@ -1099,7 +1099,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%BB%CD%BC%B0%C7%FA%CD%EB%C5%EA%BC%CD%B5%A1",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_94_Depth_Charge_Projector"
 	},
@@ -1128,7 +1128,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%B0%BC%B0%C7%FA%CD%EB%C5%EA%BC%CD%B5%A1",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_3_Depth_Charge_Projector"
 	},
@@ -1159,7 +1159,7 @@ d.equipDataTb = {
 				["六"] = {"夕张", "夕张改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["装备改修2"] = {
 			["资源消费"] = {["燃料"] = 10, ["弹药"] = 0, ["钢材"] = 30, ["铝"] = 30},
 			["初期消费"] = {["开发"] = {2, 2},["改修"] = {1, 2}, ["装备数"] = 0},
@@ -1176,7 +1176,7 @@ d.equipDataTb = {
 				["六"] = {"时雨改二", "香取改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%BB%B0%BC%B0%BF%E5%C3%E6%C4%B0%B2%BB%B5%A1",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_93_Passive_Sonar"
 	},
@@ -1205,7 +1205,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%B0%BC%B0%BF%E5%C3%E6%C3%B5%BF%AE%B5%B7",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_3_Active_Sonar"
 	},
@@ -1250,7 +1250,7 @@ d.equipDataTb = {
 				["六"] = {"皋月", "皋月改", "皋月改二", "文月", "文月改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?25mm%C3%B1%C1%F5%B5%A1%BD%C6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/25mm_Single_Autocannon_Mount"
 	},
@@ -1279,7 +1279,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?20.3cm%283%B9%E6%29%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/20.3cm_%28No.3%29_Twin_Gun_Mount"
 	},
@@ -1310,7 +1310,7 @@ d.equipDataTb = {
 				["六"] = {"伊势改"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>戦闘詳報</font>x1，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?12cm30%CF%A2%C1%F5%CA%AE%BF%CA%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/12cm_30-tube_Rocket_Launcher"
 	},
@@ -1423,7 +1423,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?61cm%B8%DE%CF%A2%C1%F5%28%BB%C0%C1%C7%29%B5%FB%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/61cm_Quintuple_%28Oxygen%29_Torpedo_Mount"
 	},
@@ -1452,7 +1452,7 @@ d.equipDataTb = {
 				["六"] = {"武藏"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%BF%E5%BE%E5%B4%D1%C2%AC%B5%A1",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Observation_Seaplane"
 	},
@@ -1481,7 +1481,7 @@ d.equipDataTb = {
 				["六"] = {"隼鹰", "隼鹰改", "隼鹰改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["装备改修2"] = {
 			["资源消费"] = {["燃料"] = 120, ["弹药"] = 120, ["钢材"] = 0, ["铝"] = 280},
 			["初期消费"] = {["开发"] = {4, 6},["改修"] = {3, 5}, ["装备数"] = 2, ["装备"] = "021"},
@@ -1498,7 +1498,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF62%B7%BF%28%C7%FA%C0%EF%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_62_%28Fighter-bomber%29"
 	},
@@ -1557,7 +1557,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?12.7cm%CF%A2%C1%F5%CB%A4B%B7%BF%B2%FE%C6%F3",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/12.7cm_Twin_Gun_Mount_Model_B_Kai_2"
 	},
@@ -1602,7 +1602,7 @@ d.equipDataTb = {
 				["六"] = {"阿贺野", "阿贺野改", "能代", "能代改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15.2cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/15.2cm_Twin_Gun_Mount"
 	},
@@ -1631,7 +1631,7 @@ d.equipDataTb = {
 				["六"] = {"阿贺野", "阿贺野改", "能代", "能代改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["装备改修2"] = {
 			["资源消费"] = {["燃料"] = 10, ["弹药"] = 40, ["钢材"] = 80, ["铝"] = 40},
 			["初期消费"] = {["开发"] = {4, 5},["改修"] = {3, 3}, ["装备数"] = 1, ["装备"] = "003"},
@@ -1648,7 +1648,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?8cm%B9%E2%B3%D1%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/8cm_High-angle_Gun"
 	},
@@ -1693,7 +1693,7 @@ d.equipDataTb = {
 				["六"] = {"秋津丸", "秋津丸改", "阿武隈改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["装备改修2"] = {
 			["资源消费"] = {["燃料"] = 50, ["弹药"] = 30, ["钢材"] = 30, ["铝"] = 10},
 			["初期消费"] = {["开发"] = {1, 2},["改修"] = {1, 2}, ["装备数"] = 1, ["装备"] = "075"},
@@ -1710,7 +1710,7 @@ d.equipDataTb = {
 				["六"] = {"鬼怒改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C2%E7%C8%AF%C6%B0%C4%FA",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Daihatsu_Landing_Craft"
 	},
@@ -1783,7 +1783,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C1%FD%C0%DF%A5%D0%A5%EB%A5%B8%28%C3%E6%B7%BF%B4%CF%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Anti-torpedo_Bulge_%28Medium%29"
 	},
@@ -1814,7 +1814,7 @@ d.equipDataTb = {
 				["六"] = {"长门", "长门改", "长门改二", "武藏", "武藏改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C1%FD%C0%DF%A5%D0%A5%EB%A5%B8%28%C2%E7%B7%BF%B4%CF%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Anti-torpedo_Bulge_%28Large%29"
 	},
@@ -1845,7 +1845,7 @@ d.equipDataTb = {
 				["六"] = {"晓", "晓改", "晓改二", "神通", "神通改", "神通改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C3%B5%BE%C8%C5%F4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Searchlight"
 	},
@@ -1890,7 +1890,7 @@ d.equipDataTb = {
 				["六"] = {"俾斯麦", "俾斯麦改", "俾斯麦zwei", "俾斯麦drei"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?38cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/38cm_Twin_Gun_Mount"
 	},
@@ -1947,7 +1947,7 @@ d.equipDataTb = {
 				["六"] = {"伊势改", "日向改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BF%F0%B1%C0%28%CF%BB%BB%B0%BB%CD%B6%F5%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Zuiun_%28634_Air_Group%29"
 	},
@@ -2074,7 +2074,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BF%B7%B7%BF%B9%E2%B2%B9%B9%E2%B0%B5%B4%CC",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/New_Model_High_Temperature_High_Pressure_Boiler"
 	},
@@ -2103,7 +2103,7 @@ d.equipDataTb = {
 				["六"] = {"妙高改二", "羽黑改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?22%B9%E6%C2%D0%BF%E5%BE%E5%C5%C5%C3%B5%B2%FE%BB%CD",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_22_Surface_Radar_Kai_4"
 	},
@@ -2132,7 +2132,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?21%B9%E6%C2%D0%B6%F5%C5%C5%C3%B5%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_21_Air_Radar_Kai"
 	},
@@ -2163,7 +2163,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?20.3cm%282%B9%E6%29%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/20.3cm_%28No.2%29_Twin_Gun_Mount"
 	},
@@ -2264,7 +2264,7 @@ d.equipDataTb = {
 				["六"] = {"赤城", "赤城改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF21%B7%BF%28%BD%CF%CE%FD%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_21_%28Skilled%29"
 	},
@@ -2363,7 +2363,7 @@ d.equipDataTb = {
 				["六"] = {"川内改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%C8%AC%BC%B0%BF%E5%BE%E5%C4%E5%BB%A1%B5%A1%28%CC%EB%C4%E5%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_98_Reconnaissance_Seaplane_%28Night_Recon%29"
 	},
@@ -2392,7 +2392,7 @@ d.equipDataTb = {
 				["六"] = {"扶桑改二", "山城改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%EE%C0%BD35.6cm%BB%B0%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Prototype_35.6cm_Triple_Gun_Mount"
 	},
@@ -2432,7 +2432,7 @@ d.equipDataTb = {
 					["火力"] = 1
 				}
 			}
-			},
+		},
 		["备注"] = "",
 		["装备改修"] = {
 			["资源消费"] = {["燃料"] = 30, ["弹药"] = 250, ["钢材"] = 300, ["铝"] = 30},
@@ -2448,7 +2448,7 @@ d.equipDataTb = {
 				["六"] = {"榛名改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?35.6cm%CF%A2%C1%F5%CB%A4%28%A5%C0%A5%BA%A5%EB%CC%C2%BA%CC%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/35.6cm_Twin_Gun_Mount_%28Dazzle_Camouflage%29"
 	},
@@ -2479,7 +2479,7 @@ d.equipDataTb = {
 				["六"] = {"陆奥改"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>新型炮熕兵装资材</font>x2，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%EE%C0%BD41cm%BB%B0%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Prototype_41cm_Triple_Gun_Mount"
 	},
@@ -2508,7 +2508,7 @@ d.equipDataTb = {
 				["六"] = {"矶风改", "初霜改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?13%B9%E6%C2%D0%B6%F5%C5%C5%C3%B5%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_13_Air_Radar_Kai"
 	},
@@ -2565,7 +2565,7 @@ d.equipDataTb = {
 				["六"] = {"大凤", "大凤改", "云龙", "云龙改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%C0%EF52%B7%BF%CA%BA%28%CF%BB%A1%BB%B0%EC%B6%F5%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Zero_Fighter_Model_52C_%28601_Air_Group%29"
 	},
@@ -2650,7 +2650,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?38cm%CF%A2%C1%F5%CB%A4%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/38cm_Twin_Gun_Mount_Kai"
 	},
@@ -2693,7 +2693,7 @@ d.equipDataTb = {
 				["六"] = {"金刚", "金刚改", "金刚改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B0%EC%BC%B0%C5%B0%B9%C3%C3%C6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_1_Armor_Piercing_Shell"
 	},
@@ -2724,7 +2724,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%EE%C0%BD46cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Prototype_46cm_Twin_Gun_Mount"
 	},
@@ -2767,7 +2767,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?14cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/14cm_Twin_Gun_Mount"
 	},
@@ -2798,7 +2798,7 @@ d.equipDataTb = {
 				["六"] = {"摩耶", "摩耶改", "摩耶改二", "秋月", "秋月改", "照月", "照月改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?91%BC%B0%B9%E2%BC%CD%C1%F5%C3%D6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_91_Anti-Aircraft_Fire_Director"
 	},
@@ -2829,7 +2829,7 @@ d.equipDataTb = {
 				["六"] = {"秋月", "秋月改", "照月", "照月改", "初月", "初月改", "吹雪改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["装备改修2"] = {
 			["资源消费"] = {["燃料"] = 0, ["弹药"] = 0, ["钢材"] = 80, ["铝"] = 70},
 			["初期消费"] = {["开发"] = {4, 5},["改修"] = {2, 3}, ["装备数"] = 0},
@@ -2846,7 +2846,7 @@ d.equipDataTb = {
 				["六"] = {"摩耶改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?94%BC%B0%B9%E2%BC%CD%C1%F5%C3%D6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_94_Anti-Aircraft_Fire_Director"
 	},
@@ -2875,7 +2875,7 @@ d.equipDataTb = {
 				["六"] = {"照月", "照月改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?10cm%B9%E2%B3%D1%CB%A4%A1%DC%B9%E2%BC%CD%C1%F5%C3%D6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/10cm_Twin_High-angle_Gun_Mount_%2B_Anti-Aircraft_Fire_Director"
 	},
@@ -2934,7 +2934,7 @@ d.equipDataTb = {
 				["六"] = {"吹雪改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?61cm%BB%B0%CF%A2%C1%F5%28%BB%C0%C1%C7%29%B5%FB%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/61cm_Triple_%28Oxygen%29_Torpedo_Mount"
 	},
@@ -2991,7 +2991,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%EE%C0%BD51cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Prototype_51cm_Twin_Gun_Mount"
 	},
@@ -3048,7 +3048,7 @@ d.equipDataTb = {
 				["六"] = {"鬼怒改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?25mm%BB%B0%CF%A2%C1%F5%B5%A1%BD%C6%20%BD%B8%C3%E6%C7%DB%C8%F7",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/25mm_Triple_Autocannon_Mount_%28Concentrated_Deployment%29"
 	},
@@ -3093,7 +3093,7 @@ d.equipDataTb = {
 				["六"] = {"罗马", "罗马改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?381mm%A1%BF50%20%BB%B0%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/381mm/50_Triple_Gun_Mount"
 	},
@@ -3122,7 +3122,7 @@ d.equipDataTb = {
 				["六"] = {"利托里奥", "意大利"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?OTO%20152mm%BB%B0%CF%A2%C1%F5%C2%AE%BC%CD%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/OTO_152mm_Triple_Rapid_Fire_Gun_Mount"
 	},
@@ -3151,7 +3151,7 @@ d.equipDataTb = {
 				["六"] = {"罗马", "罗马改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?90mm%C3%B1%C1%F5%B9%E2%B3%D1%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/90mm_Single_High-angle_Gun_Mount"
 	},
@@ -3194,7 +3194,7 @@ d.equipDataTb = {
 				["六"] = {"利托里奥", "意大利"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?381mm%A1%BF50%20%BB%B0%CF%A2%C1%F5%CB%A4%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/381mm/50_Triple_Gun_Mount_Kai"
 	},
@@ -3237,7 +3237,7 @@ d.equipDataTb = {
 				["六"] = {"矢矧", "矢矧改", "酒匂", "酒匂改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15.2cm%CF%A2%C1%F5%CB%A4%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/15.2cm_Twin_Gun_Mount_Kai"
 	},
@@ -3266,7 +3266,7 @@ d.equipDataTb = {
 				["六"] = {"比睿", "比睿改", "比睿改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?96%BC%B0150cm%C3%B5%BE%C8%C5%F4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_96_150cm_Searchlight"
 	},
@@ -3295,7 +3295,7 @@ d.equipDataTb = {
 				["六"] = {"日向"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?32%B9%E6%C2%D0%BF%E5%BE%E5%C5%C5%C3%B5%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_32_Surface_Radar_Kai"
 	},
@@ -3368,7 +3368,7 @@ d.equipDataTb = {
 				["六"] = {"阿贺野", "阿贺野改", "长波", "长波改", "长波改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C0%EF%C6%AE%CE%C8%BF%A9",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Combat_Ration"
 	},
@@ -3439,7 +3439,7 @@ d.equipDataTb = {
 				["六"] = {"五十铃改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%CD%BC%B0%BF%E5%C3%E6%C4%B0%B2%BB%B5%A1",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_4_Passive_Sonar"
 	},
@@ -3484,7 +3484,7 @@ d.equipDataTb = {
 				["六"] = {"翔鹤改二甲"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>ネ式エンジン</font>x1，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%EE%C0%BD%B7%CA%B1%C0%28%B4%CF%C4%E5%B7%BF%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Prototype_Keiun_%28Carrier-based_Reconnaissance_Model%29"
 	},
@@ -3513,7 +3513,7 @@ d.equipDataTb = {
 				["六"] = {"翔鹤", "翔鹤改", "翔鹤改二", "翔鹤改二甲"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF52%B7%BF%28%BD%CF%CE%FD%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_52_%28Skilled%29"
 	},
@@ -3542,7 +3542,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%C0%EF52%B7%BF%CA%BA%28%C9%D5%B4%E4%B0%E6%BE%AE%C2%E2%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Zero_Fighter_Model_52C_%28w/_Iwai_Flight%29"
 	},
@@ -3571,7 +3571,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%C0%EF62%B7%BF%28%C7%FA%C0%EF%A1%BF%B4%E4%B0%E6%C2%E2%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Zero_Fighter_Model_62_%28Fighter-bomber_/_Iwai_Squadron%29"
 	},
@@ -3614,7 +3614,7 @@ d.equipDataTb = {
 				["六"] = {"瑞鹤", "瑞鹤改", "瑞鹤改二", "瑞鹤改二甲"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%C0%EF52%B7%BF%B9%C3%28%C9%D5%B4%E4%CB%DC%BE%AE%C2%E2%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Zero_Fighter_Model_52A_%28w/_Iwamoto_Flight%29"
 	},
@@ -3643,7 +3643,7 @@ d.equipDataTb = {
 				["六"] = {"瑞鹤", "瑞鹤改", "瑞鹤改二", "瑞鹤改二甲"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF53%B7%BF%28%B4%E4%CB%DC%C2%E2%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_53_%28Iwamoto_Squadron%29"
 	},
@@ -3716,7 +3716,7 @@ d.equipDataTb = {
 				["六"] = {"衣阿华", "衣阿华改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?16inch%BB%B0%CF%A2%C1%F5%CB%A4%20Mk.7",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/16inch_Triple_Gun_Mount_Mk.7"
 	},
@@ -3745,7 +3745,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?203mm%A1%BF53%20%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/203mm/53_Twin_Gun_Mount"
 	},
@@ -3776,7 +3776,7 @@ d.equipDataTb = {
 				["六"] = {"意大利", "扎拉due"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?Ro.43%BF%E5%C4%E5",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Ro.43_Reconnaissance_Seaplane"
 	},
@@ -3807,7 +3807,7 @@ d.equipDataTb = {
 				["六"] = {"扎拉due"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?Ro.44%BF%E5%BE%E5%C0%EF%C6%AE%B5%A1",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Ro.44_Seaplane_Fighter"
 	},
@@ -3838,7 +3838,7 @@ d.equipDataTb = {
 				["六"] = {"瑞穗", "瑞穗改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C6%F3%BC%B0%BF%E5%C0%EF%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_2_Seaplane_Fighter_Kai"
 	},
@@ -3869,7 +3869,7 @@ d.equipDataTb = {
 				["六"] = {"秋津丸", "秋津丸改", "皋月改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C2%E7%C8%AF%C6%B0%C4%FA%28%C8%AC%B6%E5%BC%B0%C3%E6%C0%EF%BC%D6%A1%F5%CE%A6%C0%EF%C2%E2%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Daihatsu_Landing_Craft_%28Type_89_Medium_Tank_%26_Landing_Force%29"
 	},
@@ -3898,7 +3898,7 @@ d.equipDataTb = {
 				["六"] = {"伊8", "伊8改", "伊58", "伊58改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C6%C3%C6%F3%BC%B0%C6%E2%B2%D0%C4%FA",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Special_Type_2_Amphibious_Landing_Craft"
 	},
@@ -4011,7 +4011,7 @@ d.equipDataTb = {
 				["六"] = {"龙田改二", "神风改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?53cm%CF%A2%C1%F5%B5%FB%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/53cm_Twin_Torpedo_Mount"
 	},
@@ -4096,7 +4096,7 @@ d.equipDataTb = {
 				["六"] = {"初月", "初月改", "岛风", "岛风改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%EE%C0%BD61cm%CF%BB%CF%A2%C1%F5%28%BB%C0%C1%C7%29%B5%FB%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Prototype_61cm_Sextuple_%28Oxygen%29_Torpedo_Mount"
 	},
@@ -4141,7 +4141,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF32%B7%BF",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_32"
 	},
@@ -4172,7 +4172,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF32%B7%BF%28%BD%CF%CE%FD%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_32_%28Skilled%29"
 	},
@@ -4201,7 +4201,7 @@ d.equipDataTb = {
 				["六"] = {"衣阿华", "衣阿华改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?16inch%BB%B0%CF%A2%C1%F5%CB%A4%20Mk.7%A1%DCGFCS",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/16inch_Triple_Gun_Mount_Mk.7_%2B_GFCS"
 	},
@@ -4316,7 +4316,7 @@ d.equipDataTb = {
 				["六"] = {"厌战", "厌战改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?38.1cm%20Mk.I%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/38.1cm_Mk.I_Twin_Gun_Mount"
 	},
@@ -4359,7 +4359,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?38.1cm%20Mk.I%A1%BFN%CF%A2%C1%F5%CB%A4%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/38.1cm_Mk.I/N_Twin_Gun_Mount_Kai"
 	},
@@ -4388,7 +4388,7 @@ d.equipDataTb = {
 				["六"] = {"鬼怒改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C6%C3%C2%E7%C8%AF%C6%B0%C4%FA",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Toku_Daihatsu_Landing_Craft"
 	},
@@ -4461,7 +4461,7 @@ d.equipDataTb = {
 				["六"] = {"萨拉托加", "萨拉托加改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?F4F-3",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/F4F-3"
 	},
@@ -4492,7 +4492,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?F4F-4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/F4F-4"
 	},
@@ -4551,7 +4551,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BB%E7%C5%C5%B0%EC%B0%EC%B7%BF",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Shiden_Model_11"
 	},
@@ -4594,7 +4594,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B4%CF%CB%DC%BF%B7%C0%DF%B7%D7%20%C1%FD%C0%DF%A5%D0%A5%EB%A5%B8%28%C3%E6%B7%BF%B4%CF%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/New_Kanhon_Design_Anti-torpedo_Bulge_%28Medium%29"
 	},
@@ -4623,7 +4623,7 @@ d.equipDataTb = {
 				["六"] = {"大和", "大和改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B4%CF%CB%DC%BF%B7%C0%DF%B7%D7%20%C1%FD%C0%DF%A5%D0%A5%EB%A5%B8%28%C2%E7%B7%BF%B4%CF%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/New_Kanhon_Design_Anti-torpedo_Bulge_%28Large%29"
 	},
@@ -4654,7 +4654,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?F6F-3",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/F6F-3"
 	},
@@ -4683,7 +4683,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?F6F-5",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/F6F-5"
 	},
@@ -4754,7 +4754,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C0%F8%BF%E5%B4%CF%C5%EB%BA%DC%C5%C5%C3%B5%A1%F5%BF%E5%CB%C9%BC%B0%CB%BE%B1%F3%B6%C0",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Submarine_Radar_%26_Waterproof_Telescope"
 	},
@@ -4839,7 +4839,7 @@ d.equipDataTb = {
 				["六"] = {"扎拉due"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?Ro.44%BF%E5%BE%E5%C0%EF%C6%AE%B5%A1bis",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Ro.44_Seaplane_Fighter_bis"
 	},
@@ -4868,7 +4868,7 @@ d.equipDataTb = {
 				["六"] = {"瑞穗", "瑞穗改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%C6%F3%BC%B0%BF%E5%C0%EF%B2%FE%28%BD%CF%CE%FD%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_2_Seaplane_Fighter_Kai_%28Skilled%29"
 	},
@@ -4897,7 +4897,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%AF%C9%F7%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Kyoufuu_Kai"
 	},
@@ -4940,7 +4940,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CE%ED%BC%B0%B4%CF%C0%EF63%B7%BF%28%C7%FA%C0%EF%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_0_Fighter_Model_63_%28Fighter-bomber%29"
 	},
@@ -4969,7 +4969,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?8cm%B9%E2%B3%D1%CB%A4%B2%FE%A1%DC%C1%FD%C0%DF%B5%A1%BD%C6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/8cm_High-angle_Gun_Kai_%2B_Extra_Machine_Guns"
 	},
@@ -5000,7 +5000,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>新型航空兵装資材</font>x1，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B0%EC%BC%B0%C0%EF%20%C8%BBII%B7%BF",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_1_Fighter_Hayabusa_Model_II"
 	},
@@ -5029,7 +5029,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B0%EC%BC%B0%C0%EF%20%C8%BBIII%B7%BF%B9%C3",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_1_Fighter_Hayabusa_Model_III_A"
 	},
@@ -5102,7 +5102,7 @@ d.equipDataTb = {
 				["六"] = {"择捉", "择捉改", "神风", "神风改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%B6%E5%B8%DE%BC%B0%C7%FA%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Type_95_Depth_Charge"
 	},
@@ -5231,7 +5231,7 @@ d.equipDataTb = {
 				["六"] = {"大和改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15.5cm%BB%B0%CF%A2%C1%F5%C9%FB%CB%A4%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/15.5cm_Triple_Secondary_Gun_Mount_Kai"
 	},
@@ -5262,7 +5262,7 @@ d.equipDataTb = {
 				["六"] = {"大淀改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15.5cm%BB%B0%CF%A2%C1%F5%CB%A4%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/15.5cm_Triple_Gun_Mount_Kai"
 	},
@@ -5291,7 +5291,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?41cm%BB%B0%CF%A2%C1%F5%CB%A4%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/41cm_Triple_Gun_Mount_Kai"
 	},
@@ -5320,7 +5320,7 @@ d.equipDataTb = {
 				["六"] = {"日向改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%BF%F0%B1%C0%28%CF%BB%BB%B0%BB%CD%B6%F5%A1%BF%BD%CF%CE%FD%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Zuiun_%28634_Air_Group/Skilled%29"
 	},
@@ -5475,7 +5475,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?15.2cm%BB%B0%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/15.2cm_Triple_Gun_Mount"
 	},
@@ -5723,7 +5723,7 @@ d.equipDataTb = {
 					["火力"] = 1
 				}
 			}
-			},
+		},
 		["备注"] = "",
 		["装备改修"] = {
 			["资源消费"] = {["燃料"] = 10, ["弹药"] = 50, ["钢材"] = 80, ["铝"] = 0},
@@ -5741,7 +5741,7 @@ d.equipDataTb = {
 				["六"] = {"满潮改二", "荒潮改二", "雪风改", "村雨改二"}
 			},
 			["改修备注"] = "更新时消耗<font color=red>新型炮熕兵装资材</font>x1，失败时不消耗, 更新时消耗<font color=red>戦闘詳報</font>x1，失败时不消耗"
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?12.7cm%CF%A2%C1%F5%CB%A4C%B7%BF%B2%FE%C6%F3",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/12.7cm_Twin_Gun_Mount_Model_C_Kai_2"
 	},
@@ -5804,7 +5804,7 @@ d.equipDataTb = {
 					["回避"] = 2
 				}
 			}
-			},
+		},
 		["备注"] = "",
 		["装备改修"] = {
 			["资源消费"] = {["燃料"] = 20, ["弹药"] = 70, ["钢材"] = 90, ["铝"] = 20},
@@ -5820,7 +5820,7 @@ d.equipDataTb = {
 				["六"] = {"长波改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?12.7cm%CF%A2%C1%F5%CB%A4D%B7%BF%B2%FE%C6%F3",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/12.7cm_Twin_Gun_Mount_Model_D_Kai_2"
 	},
@@ -5847,7 +5847,7 @@ d.equipDataTb = {
 					["回避"] = 7
 				}
 			}
-			},
+		},
 		["备注"] = "",
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?%CB%CC%CA%FD%CC%C2%BA%CC%28%A1%DC%CB%CC%CA%FD%C1%F5%C8%F7%29",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/Arctic_Camouflage_%28%2B_Arctic_Equipment%29"
@@ -5947,7 +5947,7 @@ d.equipDataTb = {
 				["六"] = {"×"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?12cm30%CF%A2%C1%F5%CA%AE%BF%CA%CB%A4%B2%FE%C6%F3",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/12cm_30-tube_Rocket_Launcher_Kai_Ni"
 	},
@@ -5976,7 +5976,7 @@ d.equipDataTb = {
 				["六"] = {"武藏改二", "大淀改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?10cm%CF%A2%C1%F5%B9%E2%B3%D1%CB%A4%B2%FE%A1%DC%C1%FD%C0%DF%B5%A1%BD%C6",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/10cm_Twin_High-angle_Gun_Mount_Kai_%2B_Additional_Machine_Guns"
 	},
@@ -6005,7 +6005,7 @@ d.equipDataTb = {
 				["六"] = {"武藏改", "武藏改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?46cm%BB%B0%CF%A2%C1%F5%CB%A4%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/46cm_Triple_Gun_Mount_Kai"
 	},
@@ -6076,7 +6076,7 @@ d.equipDataTb = {
 				["六"] = {"杰维斯", "杰维斯改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?QF%204.7inch%CB%A4%20Mk.XII%B2%FE",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/QF_4.7inch_Gun_Mk.XII_Kai"
 	},
@@ -6105,7 +6105,7 @@ d.equipDataTb = {
 				["六"] = {"武藏改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?51cm%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/51cm_Twin_Gun_Mount"
 	},
@@ -6134,7 +6134,7 @@ d.equipDataTb = {
 				["六"] = {"塔什干", "塔什干改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?130mm%20B-13%CF%A2%C1%F5%CB%A4",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/130mm_B-13_Twin_Gun_Mount"
 	},
@@ -6163,7 +6163,7 @@ d.equipDataTb = {
 				["六"] = {"塔什干", "塔什干改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?533mm%20%BB%B0%CF%A2%C1%F5%B5%FB%CD%EB",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/533mm_Triple_Torpedo_Mount"
 	},
@@ -6192,7 +6192,7 @@ d.equipDataTb = {
 				["六"] = {"塞缪尔·B·罗伯茨", "塞缪尔·B·罗伯茨改"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "http://wikiwiki.jp/kancolle/?5inch%C3%B1%C1%F5%CB%A4%20Mk.30",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/5inch_Single_Gun_Mount_Mk.30"
 	},
@@ -6223,7 +6223,7 @@ d.equipDataTb = {
 					["回避"] = 1
 				}
 			}
-			},
+		},
 		["备注"] = "",
 		["装备改修"] = {
 			["资源消费"] = {["燃料"] = 120, ["弹药"] = 180, ["钢材"] = 90, ["铝"] = 60},
@@ -6239,7 +6239,7 @@ d.equipDataTb = {
 				["六"] = {"初霜改二", "绫波改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "https://wikiwiki.jp/kancolle/61cm%E4%B8%89%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/61cm_Triple_%28Oxygen%29_Torpedo_Mount_Late_Model"
 	},
@@ -6284,7 +6284,7 @@ d.equipDataTb = {
 					["回避"] = 1
 				}
 			}
-			},
+		},
 		["备注"] = "",
 		["装备改修"] = {
 			["资源消费"] = {["燃料"] = 160, ["弹药"] = 240, ["钢材"] = 120, ["铝"] = 80},
@@ -6300,7 +6300,7 @@ d.equipDataTb = {
 				["六"] = {"长波改二", "阳炎改二"}
 			},
 			["改修备注"] = ""
-        },
+		},
 		["日文Wiki"] = "https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B",
 		["英文Wiki"] = "http://kancolle.wikia.com/wiki/61cm_Quadruple_%28Oxygen%29_Torpedo_Mount_Late_Model"
 	},
