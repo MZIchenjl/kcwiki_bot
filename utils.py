@@ -1,4 +1,5 @@
 import json
+from collections import OrderedDict
 
 
 def nedb2json(nedbFilename, jsonFilename):
@@ -43,3 +44,46 @@ def load_akashi(json):
             '英文Wiki': entry_data['EN_Wiki'] if 'EN_Wiki' in entry_data else ''
         }
     return dic
+
+
+def luatable(data, layer=1, tab='\t', indent=False):
+    ret = ''
+    if type(data) is int or type(data) is str:
+        if indent:
+            ret = (tab * layer) + \
+                '{}'.format(json.dumps(data, ensure_ascii=False))
+        else:
+            ret = '{}'.format(json.dumps(data, ensure_ascii=False))
+    elif type(data) is list:
+        idx = 0
+        if indent:
+            ret = (tab * (layer - 1)) + '{\n'
+        else:
+            ret = '{\n'
+        for item in data:
+            if not idx:
+                ret += luatable(item, layer + 1, indent=True)
+            else:
+                ret += ',\n' + \
+                    luatable(item, layer + 1, indent=True)
+            idx += 1
+        ret += '\n' + (tab * (layer - 1)) + '}'
+    elif type(data) is dict or type(data) is OrderedDict:
+        if indent:
+            ret = (tab * (layer - 1)) + '{\n'
+        else:
+            ret = '{\n'
+        idx = 0
+        for k, v in data.items():
+            if not idx:
+                ret += (tab * layer) + \
+                    '["{}"] = '.format(
+                        k) + luatable(v, layer + 1)
+            else:
+                ret += ',\n' + \
+                    (tab * layer) + \
+                    '["{}"] = '.format(
+                        k) + luatable(v, layer + 1)
+            idx += 1
+        ret += '\n' + (tab * (layer - 1)) + '}'
+    return ret

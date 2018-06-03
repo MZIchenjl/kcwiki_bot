@@ -9,14 +9,14 @@ import json
 import os
 import re
 import time
-
 from collections import OrderedDict
 
 import aiohttp
 import lxml
 from bs4 import BeautifulSoup, element
 
-import utils 
+import utils
+
 
 class AkashiCrawler:
 
@@ -32,7 +32,6 @@ class AkashiCrawler:
         '補給艦', '海防艦', '基地航空隊'
     ]
     ID_PATTERN = re.compile(r'[0-9]+')
-    TAB = '    '
 
     def __init__(self, http_proxy=None, cache=True, sannma=False):
         self.http_proxy = http_proxy
@@ -91,7 +90,9 @@ class AkashiCrawler:
                 if 'id' in weapon.attrs:
                     weapon_id_list.append(weapon.attrs['id'].strip())
                 else:
-                    _id = 'w' + self.ID_PATTERN.search(weapon.attrs['data-title']).group()
+                    _id = 'w' + \
+                        self.ID_PATTERN.search(
+                            weapon.attrs['data-title']).group()
                     weapon_id_list.append(_id.strip())
             self.tot_items = len(weapon_id_list)
             return weapon_id_list, sannma_stats
@@ -220,7 +221,8 @@ class AkashiCrawler:
                             cache = json.load(fcache)
                             if cache['last_modified'] == last_modified:
                                 self.ok_items += 1
-                                print('({} / {}) ok!'.format(self.ok_items, self.tot_items))
+                                print(
+                                    'Akashi-list: ({} / {}) ok!'.format(self.ok_items, self.tot_items))
                                 return cache['detail']
                         except json.JSONDecodeError:
                             pass
@@ -245,7 +247,7 @@ class AkashiCrawler:
                 'zh': self.items[detail['id']]['name']['zh_cn'],
                 'ja': item_title
             }
-        
+
         for name_child in name_selector:
             if isinstance(name_child, element.NavigableString):
                 item_type = self.get_text(name_child)
@@ -533,51 +535,15 @@ class AkashiCrawler:
                         'detail': detail
                     }, fwptr, ensure_ascii=False)
         self.ok_items += 1
-        print('({} / {}) ok!'.format(self.ok_items, self.tot_items))
+        print('Akashi-list: ({} / {}) ok!'.format(self.ok_items, self.tot_items))
         return detail
-    
-    def __gen_luatable(self, data, layer, indent=False):
-        ret = ''
-        if type(data) is int or type(data) is str:
-            if indent:
-                ret = (self.TAB * layer) + '{}'.format(json.dumps(data, ensure_ascii=False))
-            else:
-                ret = '{}'.format(json.dumps(data, ensure_ascii=False))
-        elif type(data) is list:
-            idx = 0
-            if indent:
-                ret = (self.TAB * (layer - 1)) + '{\n'
-            else:
-                ret = '{\n'
-            for item in data:
-                if not idx:
-                    ret += self.__gen_luatable(item, layer + 1, indent=True)
-                else:
-                    ret += ',\n' + self.__gen_luatable(item, layer + 1, indent=True)
-                idx += 1
-            ret += '\n' + (self.TAB * (layer - 1)) + '}'
-        elif type(data) is dict or type(data) is OrderedDict:
-            if indent:
-                ret = (self.TAB * (layer - 1)) + '{\n'
-            else:
-                ret = '{\n'
-            idx = 0
-            for k, v in data.items():
-                if not idx:
-                    ret += (self.TAB * layer) + '["{}"] = '.format(k) + self.__gen_luatable(v, layer + 1)
-                else:
-                    ret +=  ',\n' + (self.TAB * layer) + '["{}"] = '.format(k) + self.__gen_luatable(v, layer + 1)
-                idx += 1
-            ret += '\n' + (self.TAB * (layer - 1)) + '}'
-        return ret
 
     def gen_luatable(self):
         lua_table = 'local k = {}\n\n'
         lua_table += 'k.EquipUpdateTb = '
-        lua_table += self.__gen_luatable(self.weapon_list, 1)
+        lua_table += utils.luatable(self.weapon_list)
         lua_table += '\n\nreturn k\n'
         return lua_table
-            
 
     async def start(self):
         utils.nedb2json('db/items.nedb', 'db/items.json')
