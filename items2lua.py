@@ -149,12 +149,12 @@ def get_bonus(bonus):
             '装备组合': conbined,
             '增益舰娘': ships,
             '增益属性': stats
-        }, layer=4, tab='    ')
+        }, layer=4)
     else:
         return utils.luatable({
             '增益舰娘': ships,
             '增益属性': stats
-        }, layer=4, tab='    ')
+        }, layer=4)
 
 
 def get_equipable(item_type):
@@ -178,12 +178,12 @@ def gen_improvement(improvement, idx):
     '''
     Get the improvement info
     '''
-    improve_entry = '        ["装备改修{}"] = {{\n'.format(idx if idx > 1 else '')
+    improve_entry = '\t\t["装备改修{}"] = {{\n'.format(idx if idx > 1 else '')
     upgrade = improvement['upgrade']
     base_resource = improvement['resource'][0]
     prim_resource = improvement['resource'][1]
     midl_resource = improvement['resource'][2]
-    improve_entry += '            ["资源消费"] = {{["燃料"] = {}, ["弹药"] = {},\
+    improve_entry += '\t\t\t["资源消费"] = {{["燃料"] = {}, ["弹药"] = {},\
  ["钢材"] = {}, ["铝"] = {}}},\n'\
         .format(base_resource[0], base_resource[1], base_resource[2], base_resource[3])
     prim_cosume_equip = ''
@@ -194,7 +194,7 @@ def gen_improvement(improvement, idx):
     else:
         prim_cosume_equip = prim_resource[4]
         prim_cosume_count = prim_resource[5]
-    improve_entry += '            ["初期消费"] = {{["开发"] = {{{}, {}}},["改修"] = {{{}, {}}}, {}{}}},\
+    improve_entry += '\t\t\t["初期消费"] = {{["开发"] = {{{}, {}}},["改修"] = {{{}, {}}}, {}{}}},\
 \n'.format(prim_resource[0], prim_resource[1], prim_resource[2], prim_resource[3],
            '["装备数"] = {}'.format(prim_cosume_count),
            ', ["装备"] = "{}"'.format(str(prim_cosume_equip).zfill(3)) if prim_cosume_count else '')
@@ -206,7 +206,7 @@ def gen_improvement(improvement, idx):
     else:
         midl_cosume_equip = midl_resource[4]
         midl_cosume_count = midl_resource[5]
-    improve_entry += '            ["中段消费"] = {{["开发"] = {{{}, {}}},["改修"] = {{{}, {}}}, {}{}}},\
+    improve_entry += '\t\t\t["中段消费"] = {{["开发"] = {{{}, {}}},["改修"] = {{{}, {}}}, {}{}}},\
 \n'.format(midl_resource[0], midl_resource[1], midl_resource[2], midl_resource[3],
            '["装备数"] = {}'.format(midl_cosume_count),
            ', ["装备"] = "{}"'.format(str(midl_cosume_equip).zfill(3)) if midl_cosume_count else '')
@@ -225,14 +225,14 @@ def gen_improvement(improvement, idx):
             upgrade_cosume_count = upgrade_resource[5]
         else:
             extra_kits = [[upgrade_resource[4], upgrade_resource[5]]]
-        improve_entry += '            ["更新消费"] = {{["开发"] = {{{}, {}}},["改修"] = {{{}, {}}}, {}\
+        improve_entry += '\t\t\t["更新消费"] = {{["开发"] = {{{}, {}}},["改修"] = {{{}, {}}}, {}\
 {}}},\n'.format(upgrade_resource[0], upgrade_resource[1], upgrade_resource[2], upgrade_resource[3],
                 '["装备数"] = {}'.format(upgrade_cosume_count),
                 ', ["装备"] = "{}"'.format(str(upgrade_cosume_equip).zfill(3))
                 if upgrade_cosume_count else '')
-        improve_entry += '            ["更新装备"] = {{["装备"] = "{}", ["等级"] = {}}},\n'\
+        improve_entry += '\t\t\t["更新装备"] = {{["装备"] = "{}", ["等级"] = {}}},\n'\
             .format(str(upgrade[0]).zfill(3), upgrade[1])
-    improve_entry += '            ["日期"] = {\n'
+    improve_entry += '\t\t\t["日期"] = {\n'
     req = improvement['req']
     req_items = [[] for i in range(7)]
     for week in req:
@@ -254,19 +254,19 @@ def gen_improvement(improvement, idx):
     req_idx = 0
     for _req in req_items:
         s_ships = ', '.join(_req)
-        req_str += '                ["{}"] = {{{}}},\n'.format(
+        req_str += '\t\t\t\t["{}"] = {{{}}},\n'.format(
             REQ_MAP[req_idx], s_ships if s_ships else '"×"')
         if req_idx == 6:
             req_str = req_str.rstrip(',\n') + '\n'
         req_idx += 1
     improve_entry += req_str
-    improve_entry += '            },\n'
+    improve_entry += '\t\t\t},\n'
     extra_remarks = []
     for extra_kit in extra_kits:
         extra_remarks.append('更新时消耗<font color=red>{}</font>x{}{}'.format(
             CONSUMABLE_MAP[extra_kit[0]], extra_kit[1],
             '，失败时不消耗' if extra_kit[0] != 'consumable_70' else ''))
-    improve_entry += '            ["改修备注"] = "{}"\n        }},\n'.format(
+    improve_entry += '\t\t\t["改修备注"] = "{}"\n\t\t}},\n'.format(
         ', '.join(extra_remarks))
     return improve_entry
 
@@ -280,28 +280,28 @@ def generate(wctf_item, kcdata_item, luatable_dict):
     _item_id = str(item_id)
     item_type = wctf_item['type']
     lua_entry = ''
-    lua_entry += '    ["{}"] = {{\n'.format(str(item_id).zfill(3))
-    lua_entry += '        ["ID"] = {},\n'.format(item_id)
-    lua_entry += '        ["日文名"] = "{}",\n'.format(
+    lua_entry += '\t["{}"] = {{\n'.format(str(item_id).zfill(3))
+    lua_entry += '\t\t["ID"] = {},\n'.format(item_id)
+    lua_entry += '\t\t["日文名"] = "{}",\n'.format(
         get_itemname(wctf_item, 'ja_jp'))
-    lua_entry += '        ["中文名"] = "{}",\n'.format(
+    lua_entry += '\t\t["中文名"] = "{}",\n'.format(
         get_itemname(wctf_item, 'zh_cn'))
     if 'type_ingame' in wctf_item:
         type_ingame = wctf_item['type_ingame']
         types = list()
         for _type in type_ingame:
             types.append(str(_type))
-        lua_entry += '        ["类别"] = {{{}}},\n'.format(','.join(types))
+        lua_entry += '\t\t["类别"] = {{{}}},\n'.format(','.join(types))
     elif 'type' in kcdata_item:
         type_ingame = kcdata_item['type']
         types = list()
         for _type in type_ingame:
             types.append(str(_type))
-        lua_entry += '        ["类别"] = {{{}}},\n'.format(
+        lua_entry += '\t\t["类别"] = {{{}}},\n'.format(
             ','.join(types))
-    lua_entry += '        ["稀有度"] = "{}",\n'.format(
+    lua_entry += '\t\t["稀有度"] = "{}",\n'.format(
         '☆' * (wctf_item['rarity'] + 1))
-    lua_entry += '        ["状态"] = {{["开发"] = {}, ["改修"] = {}, ["更新"] = {}, ["熟练"] = {}}},\n'\
+    lua_entry += '\t\t["状态"] = {{["开发"] = {}, ["改修"] = {}, ["更新"] = {}, ["熟练"] = {}}},\n'\
         .format(
             1 if 'craftable' in wctf_item and wctf_item['craftable'] else 0,
             1 if 'improvable' in wctf_item and wctf_item['improvable'] else 0,
@@ -309,23 +309,23 @@ def generate(wctf_item, kcdata_item, luatable_dict):
                 'improvement'] and wctf_item['improvement']['upgrade'] else 0,
             1 if item_type in RANK_UPGARDABLE else 0
         )
-    lua_entry += '        ["属性"] = {{{}}},\n'.format(
+    lua_entry += '\t\t["属性"] = {{{}}},\n'.format(
         get_stats(wctf_item['stat'], wctf_item['type']))
-    lua_entry += '        ["废弃"] = {{["燃料"] = {}, ["弹药"] = {}, ["钢材"] = {}, ["铝"] = {}}},\n'.format(
+    lua_entry += '\t\t["废弃"] = {{["燃料"] = {}, ["弹药"] = {}, ["钢材"] = {}, ["铝"] = {}}},\n'.format(
         wctf_item['dismantle'][0],
         wctf_item['dismantle'][1],
         wctf_item['dismantle'][2],
         wctf_item['dismantle'][3]
     )
-    lua_entry += '        ["装备适用"] = {{{}}},\n'.format(
+    lua_entry += '\t\t["装备适用"] = {{{}}},\n'.format(
         get_equipable(item_type))
     if _item_id in BONUS:
         bonus_text = []
         for bonus in BONUS[_item_id]:
             bonus_text.append(get_bonus(bonus))
-        lua_entry += '        ["额外增益"] = {{\n             {}\n        }},\n'.format(
+        lua_entry += '\t\t["额外增益"] = {{\n\t\t\t{}\n\t\t}},\n'.format(
             ', '.join(bonus_text))
-    lua_entry += '        ["备注"] = "{}",\n'.format(
+    lua_entry += '\t\t["备注"] = "{}",\n'.format(
         REMARKS[item_id] if item_id in REMARKS else '')
     if 'improvement' in wctf_item and wctf_item['improvement']:
         improvements = wctf_item['improvement']
@@ -335,10 +335,10 @@ def generate(wctf_item, kcdata_item, luatable_dict):
             lua_entry += gen_improvement(importment, improvement_idx)
     wiki_link = AKASHI_DATA[item_id] if item_id in AKASHI_DATA else []
     for wkiki_name in wiki_link:
-        lua_entry += '        ["{}"] = "{}",\n'\
+        lua_entry += '\t\t["{}"] = "{}",\n'\
             .format(wkiki_name, wiki_link[wkiki_name])
     lua_entry = lua_entry.rstrip(',\n') + '\n'
-    lua_entry += '    },\n'
+    lua_entry += '\t},\n'
     luatable_dict[item_id] = lua_entry
 
 

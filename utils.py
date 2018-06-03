@@ -50,7 +50,7 @@ def luatable(data, layer=1, tab='\t', indent=False):
     ret = ''
     if type(data) is int or type(data) is str:
         if indent:
-            ret = (tab * layer) + \
+            ret = (tab * (layer - 1)) + \
                 '{}'.format(json.dumps(data, ensure_ascii=False))
         else:
             ret = '{}'.format(json.dumps(data, ensure_ascii=False))
