@@ -26884,6 +26884,204 @@
           }
         }
       ]
+    },
+    "289": {
+      "EN_Wiki": "http://kancolle.wikia.com/wiki/35.6cm_Triple_Gun_Mount_Kai_%28Dazzle_Camouflage%29",
+      "JA_Wiki": "https://wikiwiki.jp/kancolle/35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%E4%BB%95%E6%A7%98%29",
+      "equip_ships": [
+        "-"
+      ],
+      "id": 289,
+      "item_equip": {
+        "戦艦": 1,
+        "正規空母": 0,
+        "水上機母艦": 0,
+        "航空戦艦": 1,
+        "軽巡洋艦": 0,
+        "軽空母": 0,
+        "重巡洋艦": 0,
+        "駆逐艦": 0
+      },
+      "item_fitting": [
+        {
+          "ship_class": "伊勢改型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "扶桑改二型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "大和改型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "長門改型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "金剛改二型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Bismarck drei級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "V.Veneto改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Iowa改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Queen Elizabeth改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Гангут改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Richelieu改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "長門改二",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        }
+      ],
+      "item_fitting_type": "フィット命中補正値",
+      "item_intro": "「金剛」型高速戦艦の代替新造艦装備のために計画されていた三連装35.6cm主砲、その改二以降用if改良強化型兵装です。射撃精度が向上、効果のほどは不明ですが、最期まで呉軍港で防戦に努めた「榛名」前部主砲最終仕様と同様のゼブラ模様のダズル迷彩も施しています。",
+      "item_name": {
+        "ja": "35.6cm三連装砲改(ダズル迷彩仕様)",
+        "zh": "35.6cm三连装炮改（炫光迷彩制式）"
+      },
+      "item_stat": {
+        "命中": "+3",
+        "回避": "+2",
+        "対潜": "",
+        "対空": "+5",
+        "射程": "長",
+        "火力": "+19",
+        "爆装": "",
+        "索敵": "",
+        "雷装": ""
+      },
+      "item_type": "大口径主砲",
+      "no": "No.289"
+    },
+    "290": {
+      "EN_Wiki": "http://kancolle.wikia.com/wiki/41cm_Triple_Gun_Mount_Kai_Ni",
+      "JA_Wiki": "https://wikiwiki.jp/kancolle/41cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+      "equip_ships": [
+        "-"
+      ],
+      "id": 290,
+      "item_equip": {
+        "戦艦": 1,
+        "正規空母": 0,
+        "水上機母艦": 0,
+        "航空戦艦": 1,
+        "軽巡洋艦": 0,
+        "軽空母": 0,
+        "重巡洋艦": 0,
+        "駆逐艦": 0
+      },
+      "item_fitting": [
+        {
+          "ship_class": "伊勢改型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "扶桑改二型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "大和改型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "長門改型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "金剛改二型",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Bismarck drei級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "V.Veneto改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Iowa改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Queen Elizabeth改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Гангут改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "Richelieu改級",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        },
+        {
+          "ship_class": "長門改二",
+          "ship_correct": "",
+          "ship_fitting": "unk"
+        }
+      ],
+      "item_fitting_type": "フィット命中補正値",
+      "item_intro": "呉海軍工廠砲熕部で開発された純国産戦艦用三連装主砲、その改修改良型です。if兵装ではありますが、軽量化及び射撃装置を熟成改良した同改良砲を、航空戦艦への装備、特に伊勢型航空戦艦に最適化改修した戦艦主砲兵装です。特に大規模改装後の伊勢型改二では、その潜在能力を遺憾なく発揮します。",
+      "item_name": {
+        "ja": "41cm三連装砲改二",
+        "zh": "41cm三连装炮改二"
+      },
+      "item_stat": {
+        "命中": "+5",
+        "回避": "",
+        "対潜": "",
+        "対空": "+6",
+        "射程": "長",
+        "火力": "+23",
+        "爆装": "",
+        "索敵": "",
+        "雷装": ""
+      },
+      "item_type": "大口径主砲",
+      "no": "No.290"
     }
   },
   "pre_star": [

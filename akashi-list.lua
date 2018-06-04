@@ -26885,6 +26885,204 @@ k.EquipUpdateTb = {
 		},
 		["JA_Wiki"] = "https://wikiwiki.jp/kancolle/61cm%E5%9B%9B%E9%80%A3%E8%A3%85%28%E9%85%B8%E7%B4%A0%29%E9%AD%9A%E9%9B%B7%E5%BE%8C%E6%9C%9F%E5%9E%8B",
 		["EN_Wiki"] = "http://kancolle.wikia.com/wiki/61cm_Quadruple_%28Oxygen%29_Torpedo_Mount_Late_Model"
+	},
+	["289"] = {
+		["id"] = 289,
+		["no"] = "No.289",
+		["item_name"] = {
+			["zh"] = "35.6cm三连装炮改（炫光迷彩制式）",
+			["ja"] = "35.6cm三連装砲改(ダズル迷彩仕様)"
+		},
+		["item_type"] = "大口径主砲",
+		["item_intro"] = "「金剛」型高速戦艦の代替新造艦装備のために計画されていた三連装35.6cm主砲、その改二以降用if改良強化型兵装です。射撃精度が向上、効果のほどは不明ですが、最期まで呉軍港で防戦に努めた「榛名」前部主砲最終仕様と同様のゼブラ模様のダズル迷彩も施しています。",
+		["item_stat"] = {
+			["火力"] = "+19",
+			["雷装"] = "",
+			["爆装"] = "",
+			["対空"] = "+5",
+			["対潜"] = "",
+			["索敵"] = "",
+			["命中"] = "+3",
+			["回避"] = "+2",
+			["射程"] = "長"
+		},
+		["item_equip"] = {
+			["駆逐艦"] = 0,
+			["軽巡洋艦"] = 0,
+			["重巡洋艦"] = 0,
+			["戦艦"] = 1,
+			["軽空母"] = 0,
+			["正規空母"] = 0,
+			["水上機母艦"] = 0,
+			["航空戦艦"] = 1
+		},
+		["item_fitting_type"] = "フィット命中補正値",
+		["item_fitting"] = {
+			{
+				["ship_class"] = "伊勢改型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "扶桑改二型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "大和改型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "長門改型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "金剛改二型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Bismarck drei級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "V.Veneto改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Iowa改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Queen Elizabeth改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Гангут改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Richelieu改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "長門改二",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			}
+		},
+		["equip_ships"] = {
+			"-"
+		},
+		["JA_Wiki"] = "https://wikiwiki.jp/kancolle/35.6cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%28%E3%83%80%E3%82%BA%E3%83%AB%E8%BF%B7%E5%BD%A9%E4%BB%95%E6%A7%98%29",
+		["EN_Wiki"] = "http://kancolle.wikia.com/wiki/35.6cm_Triple_Gun_Mount_Kai_%28Dazzle_Camouflage%29"
+	},
+	["290"] = {
+		["id"] = 290,
+		["no"] = "No.290",
+		["item_name"] = {
+			["zh"] = "41cm三连装炮改二",
+			["ja"] = "41cm三連装砲改二"
+		},
+		["item_type"] = "大口径主砲",
+		["item_intro"] = "呉海軍工廠砲熕部で開発された純国産戦艦用三連装主砲、その改修改良型です。if兵装ではありますが、軽量化及び射撃装置を熟成改良した同改良砲を、航空戦艦への装備、特に伊勢型航空戦艦に最適化改修した戦艦主砲兵装です。特に大規模改装後の伊勢型改二では、その潜在能力を遺憾なく発揮します。",
+		["item_stat"] = {
+			["火力"] = "+23",
+			["雷装"] = "",
+			["爆装"] = "",
+			["対空"] = "+6",
+			["対潜"] = "",
+			["索敵"] = "",
+			["命中"] = "+5",
+			["回避"] = "",
+			["射程"] = "長"
+		},
+		["item_equip"] = {
+			["駆逐艦"] = 0,
+			["軽巡洋艦"] = 0,
+			["重巡洋艦"] = 0,
+			["戦艦"] = 1,
+			["軽空母"] = 0,
+			["正規空母"] = 0,
+			["水上機母艦"] = 0,
+			["航空戦艦"] = 1
+		},
+		["item_fitting_type"] = "フィット命中補正値",
+		["item_fitting"] = {
+			{
+				["ship_class"] = "伊勢改型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "扶桑改二型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "大和改型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "長門改型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "金剛改二型",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Bismarck drei級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "V.Veneto改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Iowa改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Queen Elizabeth改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Гангут改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "Richelieu改級",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			},
+			{
+				["ship_class"] = "長門改二",
+				["ship_fitting"] = "unk",
+				["ship_correct"] = ""
+			}
+		},
+		["equip_ships"] = {
+			"-"
+		},
+		["JA_Wiki"] = "https://wikiwiki.jp/kancolle/41cm%E4%B8%89%E9%80%A3%E8%A3%85%E7%A0%B2%E6%94%B9%E4%BA%8C",
+		["EN_Wiki"] = "http://kancolle.wikia.com/wiki/41cm_Triple_Gun_Mount_Kai_Ni"
 	}
 }
 
