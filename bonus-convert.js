@@ -33,9 +33,12 @@ for (let equipment of bonus) {
     } else if (equipment.bonusImprove) {
         bonusStat = equipment.bonusImprove[0]
     }
-    if (!id) {
-        const ids = equipment.equipments.hasId
-        for (let id of equipment.equipments.hasId) {
+	if (!id) {
+		for(let key in equipment.equipments) {
+			equipment.equipments[key.toLowerCase()] = equipment.equipments[key]
+		}
+        const ids = equipment.equipments.hasid
+        for (let id of equipment.equipments.hasid) {
             if (!bonusData[id]) {
                 bonusData[id] = []
             }
